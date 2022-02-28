@@ -1,0 +1,48 @@
+[2022-02-28 08:30:03,855] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 08:30:03,866] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 08:30:03,868] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 08:30:03,868] {taskinstance.py:1244} INFO - Starting attempt 6 of 6
+[2022-02-28 08:30:03,869] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 08:30:03,880] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): read_file_from_s3> on 2022-02-25 00:00:00+00:00
+[2022-02-28 08:30:03,887] {standard_task_runner.py:52} INFO - Started process 18639 to run task
+[2022-02-28 08:30:03,891] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_s3_connection', 'read_file_from_s3', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '71', '--raw', '--subdir', 'DAGS_FOLDER/example_dag.py', '--cfg-path', '/tmp/tmpx89tctcn', '--error-file', '/tmp/tmpi_15nbk9']
+[2022-02-28 08:30:03,893] {standard_task_runner.py:77} INFO - Job 71: Subtask read_file_from_s3
+[2022-02-28 08:30:03,952] {logging_mixin.py:109} INFO - Running <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-02-28 08:30:04,013] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_s3_connection
+AIRFLOW_CTX_TASK_ID=read_file_from_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-02-28 08:30:04,027] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-02-28 08:30:04,798] {logging_mixin.py:109} INFO - Type: <class 'str'>
+[2022-02-28 08:30:04,799] {logging_mixin.py:109} INFO - id
+[2022-02-28 08:30:04,800] {logging_mixin.py:109} INFO - name
+[2022-02-28 08:30:04,801] {logging_mixin.py:109} INFO - department
+[2022-02-28 08:30:04,801] {logging_mixin.py:109} INFO - raise
+1
+[2022-02-28 08:30:04,802] {logging_mixin.py:109} INFO - Jaskirat
+[2022-02-28 08:30:04,802] {logging_mixin.py:109} INFO - MLOps
+[2022-02-28 08:30:04,803] {logging_mixin.py:109} INFO - 15
+2
+[2022-02-28 08:30:04,804] {logging_mixin.py:109} INFO - Jasmine
+[2022-02-28 08:30:04,804] {logging_mixin.py:109} INFO - HybridApps
+[2022-02-28 08:30:04,805] {logging_mixin.py:109} INFO - 20
+3
+[2022-02-28 08:30:04,805] {logging_mixin.py:109} INFO - Nipun
+[2022-02-28 08:30:04,806] {logging_mixin.py:109} INFO - Law
+[2022-02-28 08:30:04,806] {logging_mixin.py:109} INFO - 10
+4
+[2022-02-28 08:30:04,807] {logging_mixin.py:109} INFO - Dantin
+[2022-02-28 08:30:04,807] {logging_mixin.py:109} INFO - FullStack
+[2022-02-28 08:30:04,810] {logging_mixin.py:109} INFO - 14
+5
+[2022-02-28 08:30:04,810] {logging_mixin.py:109} INFO - Renu
+[2022-02-28 08:30:04,811] {logging_mixin.py:109} INFO - Marketing
+[2022-02-28 08:30:04,812] {logging_mixin.py:109} INFO - 12
+[2022-02-28 08:30:04,812] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-28 08:30:04,827] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=test_s3_connection, task_id=read_file_from_s3, execution_date=20220225T000000, start_date=20220228T083003, end_date=20220228T083004
+[2022-02-28 08:30:04,917] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-28 08:30:04,954] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

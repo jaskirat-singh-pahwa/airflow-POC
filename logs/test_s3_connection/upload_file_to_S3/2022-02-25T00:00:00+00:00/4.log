@@ -1,0 +1,105 @@
+[2022-02-25 08:40:55,157] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-25 08:40:55,173] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-25 08:40:55,177] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-25 08:40:55,178] {taskinstance.py:1244} INFO - Starting attempt 4 of 4
+[2022-02-25 08:40:55,179] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-25 08:40:55,196] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_file_to_S3> on 2022-02-25 00:00:00+00:00
+[2022-02-25 08:40:55,201] {standard_task_runner.py:52} INFO - Started process 6146 to run task
+[2022-02-25 08:40:55,205] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_s3_connection', 'upload_file_to_S3', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '45', '--raw', '--subdir', 'DAGS_FOLDER/example_dag.py', '--cfg-path', '/tmp/tmp3px21k_m', '--error-file', '/tmp/tmpu1wvuo88']
+[2022-02-25 08:40:55,207] {standard_task_runner.py:77} INFO - Job 45: Subtask upload_file_to_S3
+[2022-02-25 08:40:55,304] {logging_mixin.py:109} INFO - Running <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [running]> on host 267bf8a8032e
+[2022-02-25 08:40:55,364] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_s3_connection
+AIRFLOW_CTX_TASK_ID=upload_file_to_S3
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-02-25 08:40:57,531] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/example_dag.py", line 11, in upload_file_to_s3
+    s3.Bucket(bucket_name).upload_file(filename, key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 213, in bucket_upload_file
+    ExtraArgs=ExtraArgs, Callback=Callback, Config=Config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 133, in upload_file
+    extra_args=ExtraArgs, callback=Callback)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 287, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 269, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 584, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/utils.py", line 247, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/local/lib/python3.7/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jaskirat/Tiger/airflow/poc/dataset/P1_Airline_Comparison.xlsx'
+[2022-02-25 08:40:57,555] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=test_s3_connection, task_id=upload_file_to_S3, execution_date=20220225T000000, start_date=20220225T084055, end_date=20220225T084057
+[2022-02-25 08:40:57,573] {standard_task_runner.py:92} ERROR - Failed to execute job 45 for task upload_file_to_S3
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 174, in execute
+    return_value = self.execute_callable()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/operators/python.py", line 188, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/opt/airflow/dags/example_dag.py", line 11, in upload_file_to_s3
+    s3.Bucket(bucket_name).upload_file(filename, key)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 213, in bucket_upload_file
+    ExtraArgs=ExtraArgs, Callback=Callback, Config=Config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/inject.py", line 133, in upload_file
+    extra_args=ExtraArgs, callback=Callback)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/s3/transfer.py", line 287, in upload_file
+    future.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 103, in result
+    return self._coordinator.result()
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/futures.py", line 266, in result
+    raise self._exception
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/tasks.py", line 269, in _main
+    self._submit(transfer_future=transfer_future, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 584, in _submit
+    upload_input_manager.provide_transfer_size(transfer_future)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/upload.py", line 244, in provide_transfer_size
+    self._osutil.get_file_size(transfer_future.meta.call_args.fileobj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/s3transfer/utils.py", line 247, in get_file_size
+    return os.path.getsize(filename)
+  File "/usr/local/lib/python3.7/genericpath.py", line 50, in getsize
+    return os.stat(filename).st_size
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/jaskirat/Tiger/airflow/poc/dataset/P1_Airline_Comparison.xlsx'
+[2022-02-25 08:40:57,594] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-02-25 08:40:57,631] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

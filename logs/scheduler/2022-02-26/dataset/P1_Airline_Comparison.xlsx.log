@@ -1,0 +1,290 @@
+[2022-02-26 01:34:39,967] {processor.py:163} INFO - Started process (PID=45181) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:34:39,973] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 01:34:39,977] {logging_mixin.py:109} INFO - [2022-02-26 01:34:39,977] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:34:40,097] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:34:40,110] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.170 seconds
+[2022-02-26 01:35:29,436] {processor.py:163} INFO - Started process (PID=45217) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:35:29,460] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 01:35:29,476] {logging_mixin.py:109} INFO - [2022-02-26 01:35:29,474] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:35:29,711] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:35:29,731] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.354 seconds
+[2022-02-26 01:45:24,163] {processor.py:163} INFO - Started process (PID=45233) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:45:24,195] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 01:45:24,203] {logging_mixin.py:109} INFO - [2022-02-26 01:45:24,203] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:45:24,602] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:45:24,633] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.595 seconds
+[2022-02-26 01:55:06,875] {processor.py:163} INFO - Started process (PID=45268) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:55:06,909] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 01:55:06,920] {logging_mixin.py:109} INFO - [2022-02-26 01:55:06,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:55:07,322] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 01:55:07,402] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.637 seconds
+[2022-02-26 04:27:28,309] {processor.py:163} INFO - Started process (PID=45292) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:28,335] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:27:28,361] {logging_mixin.py:109} INFO - [2022-02-26 04:27:28,360] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:28,614] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:28,629] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.347 seconds
+[2022-02-26 04:27:59,135] {processor.py:163} INFO - Started process (PID=45323) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:59,140] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:27:59,144] {logging_mixin.py:109} INFO - [2022-02-26 04:27:59,143] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:59,192] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:27:59,203] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.077 seconds
+[2022-02-26 04:28:29,531] {processor.py:163} INFO - Started process (PID=45358) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:29,564] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:28:29,569] {logging_mixin.py:109} INFO - [2022-02-26 04:28:29,569] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:29,626] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:29,637] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.173 seconds
+[2022-02-26 04:28:59,764] {processor.py:163} INFO - Started process (PID=45393) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:59,768] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:28:59,770] {logging_mixin.py:109} INFO - [2022-02-26 04:28:59,770] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:59,814] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:28:59,821] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.061 seconds
+[2022-02-26 04:29:30,049] {processor.py:163} INFO - Started process (PID=45430) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:29:30,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:29:30,055] {logging_mixin.py:109} INFO - [2022-02-26 04:29:30,055] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:29:30,089] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:29:30,094] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.055 seconds
+[2022-02-26 04:30:00,232] {processor.py:163} INFO - Started process (PID=45474) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:00,235] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:30:00,237] {logging_mixin.py:109} INFO - [2022-02-26 04:30:00,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:00,273] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:00,279] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.051 seconds
+[2022-02-26 04:30:30,399] {processor.py:163} INFO - Started process (PID=45508) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:30,401] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:30:30,404] {logging_mixin.py:109} INFO - [2022-02-26 04:30:30,404] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:30,446] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:30:30,452] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.059 seconds
+[2022-02-26 04:31:00,604] {processor.py:163} INFO - Started process (PID=45542) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:00,607] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:31:00,609] {logging_mixin.py:109} INFO - [2022-02-26 04:31:00,609] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:00,642] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:00,647] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.048 seconds
+[2022-02-26 04:31:30,783] {processor.py:163} INFO - Started process (PID=45583) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:30,786] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:31:30,790] {logging_mixin.py:109} INFO - [2022-02-26 04:31:30,790] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:30,862] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:31:30,875] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.099 seconds
+[2022-02-26 04:32:01,090] {processor.py:163} INFO - Started process (PID=45621) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:01,098] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:32:01,104] {logging_mixin.py:109} INFO - [2022-02-26 04:32:01,103] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:01,141] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:01,146] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.063 seconds
+[2022-02-26 04:32:31,275] {processor.py:163} INFO - Started process (PID=45656) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:31,278] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:32:31,282] {logging_mixin.py:109} INFO - [2022-02-26 04:32:31,282] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:31,308] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:32:31,314] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.044 seconds
+[2022-02-26 04:33:01,462] {processor.py:163} INFO - Started process (PID=45690) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:01,464] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:33:01,466] {logging_mixin.py:109} INFO - [2022-02-26 04:33:01,466] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:01,498] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:01,503] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.047 seconds
+[2022-02-26 04:33:31,668] {processor.py:163} INFO - Started process (PID=45733) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:31,672] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:33:31,675] {logging_mixin.py:109} INFO - [2022-02-26 04:33:31,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:31,718] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:33:31,726] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.067 seconds
+[2022-02-26 04:34:01,906] {processor.py:163} INFO - Started process (PID=45765) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:01,909] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:34:01,912] {logging_mixin.py:109} INFO - [2022-02-26 04:34:01,912] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:01,943] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:01,949] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.048 seconds
+[2022-02-26 04:34:32,088] {processor.py:163} INFO - Started process (PID=45798) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:32,092] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:34:32,095] {logging_mixin.py:109} INFO - [2022-02-26 04:34:32,094] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:32,145] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:34:32,151] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.071 seconds
+[2022-02-26 04:35:02,288] {processor.py:163} INFO - Started process (PID=45844) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:02,293] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:35:02,296] {logging_mixin.py:109} INFO - [2022-02-26 04:35:02,296] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:02,332] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:02,341] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.064 seconds
+[2022-02-26 04:35:32,481] {processor.py:163} INFO - Started process (PID=45879) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:32,487] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:35:32,490] {logging_mixin.py:109} INFO - [2022-02-26 04:35:32,490] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:32,533] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:35:32,545] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.072 seconds
+[2022-02-26 04:36:02,684] {processor.py:163} INFO - Started process (PID=45912) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:02,688] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:36:02,691] {logging_mixin.py:109} INFO - [2022-02-26 04:36:02,690] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:02,729] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:02,733] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.058 seconds
+[2022-02-26 04:36:32,866] {processor.py:163} INFO - Started process (PID=45948) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:32,869] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:36:32,871] {logging_mixin.py:109} INFO - [2022-02-26 04:36:32,871] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:32,898] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:36:32,906] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.045 seconds
+[2022-02-26 04:37:03,043] {processor.py:163} INFO - Started process (PID=45992) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:03,045] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:37:03,047] {logging_mixin.py:109} INFO - [2022-02-26 04:37:03,047] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:03,075] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:03,081] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.043 seconds
+[2022-02-26 04:37:33,296] {processor.py:163} INFO - Started process (PID=46025) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:33,299] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:37:33,302] {logging_mixin.py:109} INFO - [2022-02-26 04:37:33,302] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:33,333] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:37:33,338] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.052 seconds
+[2022-02-26 04:38:03,446] {processor.py:163} INFO - Started process (PID=46058) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:03,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:38:03,450] {logging_mixin.py:109} INFO - [2022-02-26 04:38:03,450] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:03,482] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:03,488] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.046 seconds
+[2022-02-26 04:38:33,586] {processor.py:163} INFO - Started process (PID=46101) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:33,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:38:33,593] {logging_mixin.py:109} INFO - [2022-02-26 04:38:33,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:33,633] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:38:33,641] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.062 seconds
+[2022-02-26 04:39:03,742] {processor.py:163} INFO - Started process (PID=46135) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:03,744] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:39:03,746] {logging_mixin.py:109} INFO - [2022-02-26 04:39:03,746] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:03,774] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:03,780] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.042 seconds
+[2022-02-26 04:39:33,879] {processor.py:163} INFO - Started process (PID=46169) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:33,881] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:39:33,883] {logging_mixin.py:109} INFO - [2022-02-26 04:39:33,883] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:33,916] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:39:33,921] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.047 seconds
+[2022-02-26 04:40:04,001] {processor.py:163} INFO - Started process (PID=46212) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:04,003] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:40:04,005] {logging_mixin.py:109} INFO - [2022-02-26 04:40:04,005] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:04,032] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:04,037] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
+[2022-02-26 04:40:34,125] {processor.py:163} INFO - Started process (PID=46245) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:34,128] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:40:34,131] {logging_mixin.py:109} INFO - [2022-02-26 04:40:34,130] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:34,166] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:40:34,175] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.055 seconds
+[2022-02-26 04:41:04,253] {processor.py:163} INFO - Started process (PID=46279) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:04,255] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:41:04,257] {logging_mixin.py:109} INFO - [2022-02-26 04:41:04,257] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:04,286] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:04,291] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.043 seconds
+[2022-02-26 04:41:34,391] {processor.py:163} INFO - Started process (PID=46321) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:34,394] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:41:34,396] {logging_mixin.py:109} INFO - [2022-02-26 04:41:34,395] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:34,420] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:41:34,425] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.038 seconds
+[2022-02-26 04:42:04,527] {processor.py:163} INFO - Started process (PID=46346) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:04,530] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:42:04,532] {logging_mixin.py:109} INFO - [2022-02-26 04:42:04,532] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:04,560] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:04,564] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
+[2022-02-26 04:42:34,696] {processor.py:163} INFO - Started process (PID=46378) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:34,700] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:42:34,702] {logging_mixin.py:109} INFO - [2022-02-26 04:42:34,702] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:34,739] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:42:34,746] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.056 seconds
+[2022-02-26 04:43:04,923] {processor.py:163} INFO - Started process (PID=46424) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:04,926] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:43:04,928] {logging_mixin.py:109} INFO - [2022-02-26 04:43:04,928] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:04,957] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:04,963] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.046 seconds
+[2022-02-26 04:43:35,084] {processor.py:163} INFO - Started process (PID=46460) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:35,086] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:43:35,089] {logging_mixin.py:109} INFO - [2022-02-26 04:43:35,089] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:35,117] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:43:35,124] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.046 seconds
+[2022-02-26 04:44:05,294] {processor.py:163} INFO - Started process (PID=46502) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:05,297] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:44:05,299] {logging_mixin.py:109} INFO - [2022-02-26 04:44:05,298] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:05,326] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:05,331] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
+[2022-02-26 04:44:35,470] {processor.py:163} INFO - Started process (PID=46537) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:35,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:44:35,474] {logging_mixin.py:109} INFO - [2022-02-26 04:44:35,474] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:35,505] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:44:35,511] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.045 seconds
+[2022-02-26 04:45:05,677] {processor.py:163} INFO - Started process (PID=46570) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:05,679] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:45:05,681] {logging_mixin.py:109} INFO - [2022-02-26 04:45:05,681] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:05,706] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:05,711] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.039 seconds
+[2022-02-26 04:45:35,852] {processor.py:163} INFO - Started process (PID=46614) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:35,854] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:45:35,855] {logging_mixin.py:109} INFO - [2022-02-26 04:45:35,855] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:35,882] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:45:35,887] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.040 seconds
+[2022-02-26 04:46:06,017] {processor.py:163} INFO - Started process (PID=46646) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:06,021] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:46:06,025] {logging_mixin.py:109} INFO - [2022-02-26 04:46:06,024] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:06,063] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:06,071] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.064 seconds
+[2022-02-26 04:46:36,252] {processor.py:163} INFO - Started process (PID=46679) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:36,255] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:46:36,256] {logging_mixin.py:109} INFO - [2022-02-26 04:46:36,256] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:36,285] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:46:36,290] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.043 seconds
+[2022-02-26 04:47:06,446] {processor.py:163} INFO - Started process (PID=46721) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:06,448] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:47:06,450] {logging_mixin.py:109} INFO - [2022-02-26 04:47:06,449] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:06,478] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:06,483] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.043 seconds
+[2022-02-26 04:47:36,670] {processor.py:163} INFO - Started process (PID=46754) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:36,673] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:47:36,675] {logging_mixin.py:109} INFO - [2022-02-26 04:47:36,675] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:36,700] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:47:36,704] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.038 seconds
+[2022-02-26 04:48:06,870] {processor.py:163} INFO - Started process (PID=46787) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:06,872] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:48:06,874] {logging_mixin.py:109} INFO - [2022-02-26 04:48:06,874] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:06,899] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:06,904] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.038 seconds
+[2022-02-26 04:48:37,052] {processor.py:163} INFO - Started process (PID=46833) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:37,054] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:48:37,056] {logging_mixin.py:109} INFO - [2022-02-26 04:48:37,056] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:37,082] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:48:37,088] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.040 seconds
+[2022-02-26 04:49:07,238] {processor.py:163} INFO - Started process (PID=46867) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:07,240] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:49:07,242] {logging_mixin.py:109} INFO - [2022-02-26 04:49:07,242] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:07,267] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:07,272] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
+[2022-02-26 04:49:37,412] {processor.py:163} INFO - Started process (PID=46910) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:37,414] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:49:37,416] {logging_mixin.py:109} INFO - [2022-02-26 04:49:37,416] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:37,444] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:49:37,449] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.042 seconds
+[2022-02-26 04:50:07,589] {processor.py:163} INFO - Started process (PID=46943) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:07,591] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:50:07,593] {logging_mixin.py:109} INFO - [2022-02-26 04:50:07,593] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:07,623] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:07,629] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.045 seconds
+[2022-02-26 04:50:37,738] {processor.py:163} INFO - Started process (PID=46978) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:37,740] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:50:37,742] {logging_mixin.py:109} INFO - [2022-02-26 04:50:37,742] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:37,767] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:50:37,774] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.040 seconds
+[2022-02-26 04:51:07,914] {processor.py:163} INFO - Started process (PID=47022) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:07,916] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:51:07,918] {logging_mixin.py:109} INFO - [2022-02-26 04:51:07,918] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:07,949] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:07,953] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.044 seconds
+[2022-02-26 04:51:38,061] {processor.py:163} INFO - Started process (PID=47055) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:38,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:51:38,066] {logging_mixin.py:109} INFO - [2022-02-26 04:51:38,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:38,095] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:51:38,102] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.046 seconds
+[2022-02-26 04:52:08,232] {processor.py:163} INFO - Started process (PID=47090) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:08,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:52:08,239] {logging_mixin.py:109} INFO - [2022-02-26 04:52:08,239] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:08,279] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:08,285] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.062 seconds
+[2022-02-26 04:52:38,402] {processor.py:163} INFO - Started process (PID=47136) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:38,405] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:52:38,406] {logging_mixin.py:109} INFO - [2022-02-26 04:52:38,406] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:38,430] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:52:38,435] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.038 seconds
+[2022-02-26 04:53:08,543] {processor.py:163} INFO - Started process (PID=47168) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:08,545] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:53:08,547] {logging_mixin.py:109} INFO - [2022-02-26 04:53:08,547] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:08,573] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:08,580] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
+[2022-02-26 04:53:38,694] {processor.py:163} INFO - Started process (PID=47201) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:38,696] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:53:38,698] {logging_mixin.py:109} INFO - [2022-02-26 04:53:38,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:38,725] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:53:38,733] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.043 seconds
+[2022-02-26 04:54:08,833] {processor.py:163} INFO - Started process (PID=47246) to work on /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:54:08,835] {processor.py:642} INFO - Processing file /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx for tasks to queue
+[2022-02-26 04:54:08,836] {logging_mixin.py:109} INFO - [2022-02-26 04:54:08,836] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:54:08,864] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx
+[2022-02-26 04:54:08,870] {processor.py:171} INFO - Processing /opt/airflow/dags/dataset/P1_Airline_Comparison.xlsx took 0.041 seconds
