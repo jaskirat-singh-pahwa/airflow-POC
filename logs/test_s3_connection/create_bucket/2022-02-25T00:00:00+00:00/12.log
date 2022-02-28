@@ -1,0 +1,24 @@
+[2022-02-28 09:42:24,058] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.create_bucket scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:42:24,074] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.create_bucket scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:42:24,075] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:42:24,075] {taskinstance.py:1244} INFO - Starting attempt 12 of 12
+[2022-02-28 09:42:24,076] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:42:24,089] {taskinstance.py:1264} INFO - Executing <Task(S3CreateBucketOperator): create_bucket> on 2022-02-25 00:00:00+00:00
+[2022-02-28 09:42:24,095] {standard_task_runner.py:52} INFO - Started process 23179 to run task
+[2022-02-28 09:42:24,100] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_s3_connection', 'create_bucket', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '84', '--raw', '--subdir', 'DAGS_FOLDER/example_dag.py', '--cfg-path', '/tmp/tmpg1r3rpp5', '--error-file', '/tmp/tmpnu1nrj2z']
+[2022-02-28 09:42:24,101] {standard_task_runner.py:77} INFO - Job 84: Subtask create_bucket
+[2022-02-28 09:42:24,167] {logging_mixin.py:109} INFO - Running <TaskInstance: test_s3_connection.create_bucket scheduled__2022-02-25T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-02-28 09:42:24,232] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_s3_connection
+AIRFLOW_CTX_TASK_ID=create_bucket
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-02-28 09:42:24,247] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-02-28 09:42:25,789] {s3.py:162} ERROR - Not Found
+[2022-02-28 09:42:26,337] {s3.py:74} INFO - Created bucket with name: s3bucket-through-***-task
+[2022-02-28 09:42:26,353] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=test_s3_connection, task_id=create_bucket, execution_date=20220225T000000, start_date=20220228T094224, end_date=20220228T094226
+[2022-02-28 09:42:26,400] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-28 09:42:26,446] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

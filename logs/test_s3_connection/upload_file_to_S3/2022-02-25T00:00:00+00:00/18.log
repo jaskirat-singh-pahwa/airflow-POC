@@ -1,0 +1,23 @@
+[2022-02-28 09:42:27,925] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:42:27,942] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:42:27,943] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:42:27,944] {taskinstance.py:1244} INFO - Starting attempt 18 of 18
+[2022-02-28 09:42:27,945] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:42:27,961] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): upload_file_to_S3> on 2022-02-25 00:00:00+00:00
+[2022-02-28 09:42:27,972] {standard_task_runner.py:52} INFO - Started process 23193 to run task
+[2022-02-28 09:42:27,977] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_s3_connection', 'upload_file_to_S3', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '85', '--raw', '--subdir', 'DAGS_FOLDER/example_dag.py', '--cfg-path', '/tmp/tmpb_4xyspt', '--error-file', '/tmp/tmpo_xixs1t']
+[2022-02-28 09:42:27,979] {standard_task_runner.py:77} INFO - Job 85: Subtask upload_file_to_S3
+[2022-02-28 09:42:28,046] {logging_mixin.py:109} INFO - Running <TaskInstance: test_s3_connection.upload_file_to_S3 scheduled__2022-02-25T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-02-28 09:42:28,137] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_s3_connection
+AIRFLOW_CTX_TASK_ID=upload_file_to_S3
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-02-28 09:42:28,155] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-02-28 09:42:30,259] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-28 09:42:30,275] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=test_s3_connection, task_id=upload_file_to_S3, execution_date=20220225T000000, start_date=20220228T094227, end_date=20220228T094230
+[2022-02-28 09:42:30,327] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-28 09:42:30,371] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

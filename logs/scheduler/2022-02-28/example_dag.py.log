@@ -9875,3 +9875,1244 @@ ImportError: cannot import name 'StringIO' from 'pandas.compat' (/home/airflow/.
 [2022-02-28 09:10:35,758] {logging_mixin.py:109} INFO - [2022-02-28 09:10:35,758] {dag.py:2398} INFO - Sync 1 DAGs
 [2022-02-28 09:10:35,775] {logging_mixin.py:109} INFO - [2022-02-28 09:10:35,775] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
 [2022-02-28 09:10:35,789] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.652 seconds
+[2022-02-28 09:11:05,881] {processor.py:163} INFO - Started process (PID=21179) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:05,883] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:11:05,885] {logging_mixin.py:109} INFO - [2022-02-28 09:11:05,885] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:06,605] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:06,623] {logging_mixin.py:109} INFO - [2022-02-28 09:11:06,622] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:11:06,647] {logging_mixin.py:109} INFO - [2022-02-28 09:11:06,647] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:11:06,664] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.787 seconds
+[2022-02-28 09:11:36,786] {processor.py:163} INFO - Started process (PID=21209) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:36,788] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:11:36,789] {logging_mixin.py:109} INFO - [2022-02-28 09:11:36,789] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:37,387] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:11:37,398] {logging_mixin.py:109} INFO - [2022-02-28 09:11:37,398] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:11:37,422] {logging_mixin.py:109} INFO - [2022-02-28 09:11:37,422] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:11:37,434] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.654 seconds
+[2022-02-28 09:12:07,544] {processor.py:163} INFO - Started process (PID=21239) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:07,546] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:12:07,549] {logging_mixin.py:109} INFO - [2022-02-28 09:12:07,548] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:08,523] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:08,541] {logging_mixin.py:109} INFO - [2022-02-28 09:12:08,541] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:12:08,569] {logging_mixin.py:109} INFO - [2022-02-28 09:12:08,569] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:12:08,627] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.089 seconds
+[2022-02-28 09:12:38,800] {processor.py:163} INFO - Started process (PID=21267) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:38,803] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:12:38,804] {logging_mixin.py:109} INFO - [2022-02-28 09:12:38,804] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:40,013] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:12:40,042] {logging_mixin.py:109} INFO - [2022-02-28 09:12:40,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:12:40,115] {logging_mixin.py:109} INFO - [2022-02-28 09:12:40,115] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:12:40,146] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.349 seconds
+[2022-02-28 09:13:10,339] {processor.py:163} INFO - Started process (PID=21295) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:10,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:13:10,344] {logging_mixin.py:109} INFO - [2022-02-28 09:13:10,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:11,261] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:11,284] {logging_mixin.py:109} INFO - [2022-02-28 09:13:11,281] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:13:11,311] {logging_mixin.py:109} INFO - [2022-02-28 09:13:11,311] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:13:11,324] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.991 seconds
+[2022-02-28 09:13:41,452] {processor.py:163} INFO - Started process (PID=21334) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:41,456] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:13:41,458] {logging_mixin.py:109} INFO - [2022-02-28 09:13:41,458] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:42,121] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:13:42,132] {logging_mixin.py:109} INFO - [2022-02-28 09:13:42,132] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:13:42,151] {logging_mixin.py:109} INFO - [2022-02-28 09:13:42,151] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:13:42,168] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.720 seconds
+[2022-02-28 09:14:12,286] {processor.py:163} INFO - Started process (PID=21363) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:12,288] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:14:12,290] {logging_mixin.py:109} INFO - [2022-02-28 09:14:12,290] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:12,887] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:12,898] {logging_mixin.py:109} INFO - [2022-02-28 09:14:12,898] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:14:12,915] {logging_mixin.py:109} INFO - [2022-02-28 09:14:12,915] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:14:12,933] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.652 seconds
+[2022-02-28 09:14:43,037] {processor.py:163} INFO - Started process (PID=21400) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:43,039] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:14:43,040] {logging_mixin.py:109} INFO - [2022-02-28 09:14:43,040] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:43,775] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:14:43,787] {logging_mixin.py:109} INFO - [2022-02-28 09:14:43,787] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:14:43,802] {logging_mixin.py:109} INFO - [2022-02-28 09:14:43,802] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:14:43,815] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.783 seconds
+[2022-02-28 09:15:13,925] {processor.py:163} INFO - Started process (PID=21428) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:13,933] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:15:13,935] {logging_mixin.py:109} INFO - [2022-02-28 09:15:13,935] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:14,524] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:14,533] {logging_mixin.py:109} INFO - [2022-02-28 09:15:14,533] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:15:14,548] {logging_mixin.py:109} INFO - [2022-02-28 09:15:14,547] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:15:14,564] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.644 seconds
+[2022-02-28 09:15:44,670] {processor.py:163} INFO - Started process (PID=21458) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:44,671] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:15:44,673] {logging_mixin.py:109} INFO - [2022-02-28 09:15:44,673] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:45,268] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:15:45,280] {logging_mixin.py:109} INFO - [2022-02-28 09:15:45,279] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:15:45,297] {logging_mixin.py:109} INFO - [2022-02-28 09:15:45,297] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:15:45,313] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.647 seconds
+[2022-02-28 09:16:15,421] {processor.py:163} INFO - Started process (PID=21497) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:15,423] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:16:15,425] {logging_mixin.py:109} INFO - [2022-02-28 09:16:15,425] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:16,059] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:16,071] {logging_mixin.py:109} INFO - [2022-02-28 09:16:16,071] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:16:16,092] {logging_mixin.py:109} INFO - [2022-02-28 09:16:16,091] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:16:16,101] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.685 seconds
+[2022-02-28 09:16:46,275] {processor.py:163} INFO - Started process (PID=21527) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:46,282] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:16:46,283] {logging_mixin.py:109} INFO - [2022-02-28 09:16:46,283] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:46,887] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:16:46,896] {logging_mixin.py:109} INFO - [2022-02-28 09:16:46,895] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:16:46,912] {logging_mixin.py:109} INFO - [2022-02-28 09:16:46,912] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:16:46,926] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.656 seconds
+[2022-02-28 09:17:17,038] {processor.py:163} INFO - Started process (PID=21565) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:17,040] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:17:17,042] {logging_mixin.py:109} INFO - [2022-02-28 09:17:17,041] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:17,841] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:17,853] {logging_mixin.py:109} INFO - [2022-02-28 09:17:17,853] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:17:17,871] {logging_mixin.py:109} INFO - [2022-02-28 09:17:17,871] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:17:17,884] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.851 seconds
+[2022-02-28 09:17:47,991] {processor.py:163} INFO - Started process (PID=21594) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:47,993] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:17:47,994] {logging_mixin.py:109} INFO - [2022-02-28 09:17:47,994] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:48,591] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:17:48,603] {logging_mixin.py:109} INFO - [2022-02-28 09:17:48,602] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:17:48,619] {logging_mixin.py:109} INFO - [2022-02-28 09:17:48,619] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:17:48,635] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.648 seconds
+[2022-02-28 09:18:18,732] {processor.py:163} INFO - Started process (PID=21622) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:18,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:18:18,736] {logging_mixin.py:109} INFO - [2022-02-28 09:18:18,736] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:19,358] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:19,368] {logging_mixin.py:109} INFO - [2022-02-28 09:18:19,367] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:18:19,382] {logging_mixin.py:109} INFO - [2022-02-28 09:18:19,382] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:18:19,396] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.668 seconds
+[2022-02-28 09:18:49,494] {processor.py:163} INFO - Started process (PID=21660) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:49,496] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:18:49,498] {logging_mixin.py:109} INFO - [2022-02-28 09:18:49,498] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:50,119] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:18:50,129] {logging_mixin.py:109} INFO - [2022-02-28 09:18:50,128] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:18:50,143] {logging_mixin.py:109} INFO - [2022-02-28 09:18:50,143] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:18:50,162] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.672 seconds
+[2022-02-28 09:19:20,340] {processor.py:163} INFO - Started process (PID=21689) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:20,342] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:19:20,344] {logging_mixin.py:109} INFO - [2022-02-28 09:19:20,344] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:20,988] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:20,997] {logging_mixin.py:109} INFO - [2022-02-28 09:19:20,997] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:19:21,013] {logging_mixin.py:109} INFO - [2022-02-28 09:19:21,013] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:19:21,023] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.687 seconds
+[2022-02-28 09:19:51,129] {processor.py:163} INFO - Started process (PID=21728) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:51,131] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:19:51,133] {logging_mixin.py:109} INFO - [2022-02-28 09:19:51,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:51,766] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:19:51,780] {logging_mixin.py:109} INFO - [2022-02-28 09:19:51,780] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:19:51,800] {logging_mixin.py:109} INFO - [2022-02-28 09:19:51,800] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:19:51,811] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.687 seconds
+[2022-02-28 09:20:21,962] {processor.py:163} INFO - Started process (PID=21756) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:21,964] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:20:21,966] {logging_mixin.py:109} INFO - [2022-02-28 09:20:21,965] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:22,544] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:22,554] {logging_mixin.py:109} INFO - [2022-02-28 09:20:22,554] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:20:22,569] {logging_mixin.py:109} INFO - [2022-02-28 09:20:22,569] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:20:22,583] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.627 seconds
+[2022-02-28 09:20:52,715] {processor.py:163} INFO - Started process (PID=21786) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:52,723] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:20:52,725] {logging_mixin.py:109} INFO - [2022-02-28 09:20:52,725] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:53,305] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:20:53,315] {logging_mixin.py:109} INFO - [2022-02-28 09:20:53,314] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:20:53,329] {logging_mixin.py:109} INFO - [2022-02-28 09:20:53,329] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:20:53,343] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.631 seconds
+[2022-02-28 09:21:23,447] {processor.py:163} INFO - Started process (PID=21823) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:23,450] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:21:23,452] {logging_mixin.py:109} INFO - [2022-02-28 09:21:23,451] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:24,104] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:24,115] {logging_mixin.py:109} INFO - [2022-02-28 09:21:24,114] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:21:24,130] {logging_mixin.py:109} INFO - [2022-02-28 09:21:24,130] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:21:24,138] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.696 seconds
+[2022-02-28 09:21:54,283] {processor.py:163} INFO - Started process (PID=21853) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:54,291] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:21:54,292] {logging_mixin.py:109} INFO - [2022-02-28 09:21:54,292] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:54,872] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:21:54,882] {logging_mixin.py:109} INFO - [2022-02-28 09:21:54,882] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:21:54,899] {logging_mixin.py:109} INFO - [2022-02-28 09:21:54,898] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:21:54,916] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.637 seconds
+[2022-02-28 09:22:25,054] {processor.py:163} INFO - Started process (PID=21892) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:25,058] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:22:25,059] {logging_mixin.py:109} INFO - [2022-02-28 09:22:25,059] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:25,683] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:25,692] {logging_mixin.py:109} INFO - [2022-02-28 09:22:25,692] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:22:25,707] {logging_mixin.py:109} INFO - [2022-02-28 09:22:25,707] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:22:25,720] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.670 seconds
+[2022-02-28 09:22:55,842] {processor.py:163} INFO - Started process (PID=21920) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:55,847] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:22:55,848] {logging_mixin.py:109} INFO - [2022-02-28 09:22:55,848] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:56,440] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:22:56,451] {logging_mixin.py:109} INFO - [2022-02-28 09:22:56,451] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:22:56,469] {logging_mixin.py:109} INFO - [2022-02-28 09:22:56,469] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:22:56,482] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.645 seconds
+[2022-02-28 09:23:26,593] {processor.py:163} INFO - Started process (PID=21949) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:26,602] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:23:26,603] {logging_mixin.py:109} INFO - [2022-02-28 09:23:26,603] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:27,195] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:27,205] {logging_mixin.py:109} INFO - [2022-02-28 09:23:27,205] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:23:27,219] {logging_mixin.py:109} INFO - [2022-02-28 09:23:27,219] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:23:27,233] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.647 seconds
+[2022-02-28 09:23:57,385] {processor.py:163} INFO - Started process (PID=21989) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:57,388] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:23:57,389] {logging_mixin.py:109} INFO - [2022-02-28 09:23:57,389] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:57,980] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:23:57,989] {logging_mixin.py:109} INFO - [2022-02-28 09:23:57,989] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:23:58,009] {logging_mixin.py:109} INFO - [2022-02-28 09:23:58,009] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:23:58,018] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.638 seconds
+[2022-02-28 09:24:28,107] {processor.py:163} INFO - Started process (PID=22020) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:28,109] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:24:28,111] {logging_mixin.py:109} INFO - [2022-02-28 09:24:28,111] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:28,697] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:28,707] {logging_mixin.py:109} INFO - [2022-02-28 09:24:28,707] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:24:28,721] {logging_mixin.py:109} INFO - [2022-02-28 09:24:28,721] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:24:28,736] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.632 seconds
+[2022-02-28 09:24:58,889] {processor.py:163} INFO - Started process (PID=22058) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:58,891] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:24:58,893] {logging_mixin.py:109} INFO - [2022-02-28 09:24:58,893] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:59,544] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:24:59,555] {logging_mixin.py:109} INFO - [2022-02-28 09:24:59,554] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:24:59,572] {logging_mixin.py:109} INFO - [2022-02-28 09:24:59,571] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:24:59,587] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.702 seconds
+[2022-02-28 09:25:29,703] {processor.py:163} INFO - Started process (PID=22087) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:25:29,706] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:25:29,707] {logging_mixin.py:109} INFO - [2022-02-28 09:25:29,707] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:25:30,287] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:25:30,297] {logging_mixin.py:109} INFO - [2022-02-28 09:25:30,296] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:25:30,313] {logging_mixin.py:109} INFO - [2022-02-28 09:25:30,313] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:25:30,327] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.629 seconds
+[2022-02-28 09:26:00,440] {processor.py:163} INFO - Started process (PID=22117) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:00,443] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:26:00,444] {logging_mixin.py:109} INFO - [2022-02-28 09:26:00,444] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:01,032] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:01,042] {logging_mixin.py:109} INFO - [2022-02-28 09:26:01,041] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:26:01,058] {logging_mixin.py:109} INFO - [2022-02-28 09:26:01,058] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:26:01,073] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.638 seconds
+[2022-02-28 09:26:31,284] {processor.py:163} INFO - Started process (PID=22159) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:31,286] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:26:31,288] {logging_mixin.py:109} INFO - [2022-02-28 09:26:31,288] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:31,950] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:26:31,962] {logging_mixin.py:109} INFO - [2022-02-28 09:26:31,962] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:26:31,980] {logging_mixin.py:109} INFO - [2022-02-28 09:26:31,980] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:26:31,991] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.712 seconds
+[2022-02-28 09:27:02,166] {processor.py:163} INFO - Started process (PID=22189) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:02,169] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:27:02,171] {logging_mixin.py:109} INFO - [2022-02-28 09:27:02,171] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:02,755] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:02,766] {logging_mixin.py:109} INFO - [2022-02-28 09:27:02,765] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:27:02,783] {logging_mixin.py:109} INFO - [2022-02-28 09:27:02,783] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:27:02,798] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.638 seconds
+[2022-02-28 09:27:32,921] {processor.py:163} INFO - Started process (PID=22227) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:32,923] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:27:32,928] {logging_mixin.py:109} INFO - [2022-02-28 09:27:32,928] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:33,577] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:27:33,589] {logging_mixin.py:109} INFO - [2022-02-28 09:27:33,589] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:27:33,607] {logging_mixin.py:109} INFO - [2022-02-28 09:27:33,607] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:27:33,622] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.708 seconds
+[2022-02-28 09:28:03,696] {processor.py:163} INFO - Started process (PID=22259) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:03,699] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:28:03,701] {logging_mixin.py:109} INFO - [2022-02-28 09:28:03,701] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:04,287] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:04,297] {logging_mixin.py:109} INFO - [2022-02-28 09:28:04,297] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:28:04,311] {logging_mixin.py:109} INFO - [2022-02-28 09:28:04,311] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:28:04,327] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.636 seconds
+[2022-02-28 09:28:34,440] {processor.py:163} INFO - Started process (PID=22287) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:34,442] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:28:34,443] {logging_mixin.py:109} INFO - [2022-02-28 09:28:34,443] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:35,023] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:28:35,033] {logging_mixin.py:109} INFO - [2022-02-28 09:28:35,033] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:28:35,047] {logging_mixin.py:109} INFO - [2022-02-28 09:28:35,047] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:28:35,062] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.627 seconds
+[2022-02-28 09:29:05,165] {processor.py:163} INFO - Started process (PID=22327) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:05,168] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:29:05,170] {logging_mixin.py:109} INFO - [2022-02-28 09:29:05,170] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:05,907] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:05,918] {logging_mixin.py:109} INFO - [2022-02-28 09:29:05,918] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:29:05,932] {logging_mixin.py:109} INFO - [2022-02-28 09:29:05,932] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:29:05,944] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.784 seconds
+[2022-02-28 09:29:36,072] {processor.py:163} INFO - Started process (PID=22356) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:36,074] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:29:36,075] {logging_mixin.py:109} INFO - [2022-02-28 09:29:36,075] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:36,707] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:29:36,717] {logging_mixin.py:109} INFO - [2022-02-28 09:29:36,717] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:29:36,731] {logging_mixin.py:109} INFO - [2022-02-28 09:29:36,731] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:29:36,747] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.681 seconds
+[2022-02-28 09:30:06,894] {processor.py:163} INFO - Started process (PID=22385) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:06,898] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:30:06,900] {logging_mixin.py:109} INFO - [2022-02-28 09:30:06,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:07,531] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:07,545] {logging_mixin.py:109} INFO - [2022-02-28 09:30:07,544] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:30:07,566] {logging_mixin.py:109} INFO - [2022-02-28 09:30:07,565] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:30:07,578] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.688 seconds
+[2022-02-28 09:30:37,732] {processor.py:163} INFO - Started process (PID=22424) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:37,734] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:30:37,735] {logging_mixin.py:109} INFO - [2022-02-28 09:30:37,735] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:38,321] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:30:38,332] {logging_mixin.py:109} INFO - [2022-02-28 09:30:38,332] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:30:38,346] {logging_mixin.py:109} INFO - [2022-02-28 09:30:38,346] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:30:38,356] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.629 seconds
+[2022-02-28 09:31:08,511] {processor.py:163} INFO - Started process (PID=22452) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:08,514] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:31:08,515] {logging_mixin.py:109} INFO - [2022-02-28 09:31:08,515] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:09,091] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:09,101] {logging_mixin.py:109} INFO - [2022-02-28 09:31:09,100] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:31:09,115] {logging_mixin.py:109} INFO - [2022-02-28 09:31:09,115] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:31:09,129] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.622 seconds
+[2022-02-28 09:31:39,262] {processor.py:163} INFO - Started process (PID=22489) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:39,264] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:31:39,266] {logging_mixin.py:109} INFO - [2022-02-28 09:31:39,266] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:39,917] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:31:39,930] {logging_mixin.py:109} INFO - [2022-02-28 09:31:39,930] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:31:39,958] {logging_mixin.py:109} INFO - [2022-02-28 09:31:39,958] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:31:39,976] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.718 seconds
+[2022-02-28 09:32:10,169] {processor.py:163} INFO - Started process (PID=22518) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:10,171] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:32:10,173] {logging_mixin.py:109} INFO - [2022-02-28 09:32:10,173] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:10,773] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:10,785] {logging_mixin.py:109} INFO - [2022-02-28 09:32:10,784] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:32:10,801] {logging_mixin.py:109} INFO - [2022-02-28 09:32:10,801] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:32:10,817] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.654 seconds
+[2022-02-28 09:32:40,953] {processor.py:163} INFO - Started process (PID=22546) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:40,955] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:32:40,957] {logging_mixin.py:109} INFO - [2022-02-28 09:32:40,957] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:41,550] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:32:41,562] {logging_mixin.py:109} INFO - [2022-02-28 09:32:41,561] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:32:41,578] {logging_mixin.py:109} INFO - [2022-02-28 09:32:41,578] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:32:41,590] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.642 seconds
+[2022-02-28 09:33:11,700] {processor.py:163} INFO - Started process (PID=22585) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:11,703] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:33:11,704] {logging_mixin.py:109} INFO - [2022-02-28 09:33:11,704] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:12,306] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:12,316] {logging_mixin.py:109} INFO - [2022-02-28 09:33:12,315] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:33:12,331] {logging_mixin.py:109} INFO - [2022-02-28 09:33:12,331] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:33:12,346] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.652 seconds
+[2022-02-28 09:33:42,506] {processor.py:163} INFO - Started process (PID=22613) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:42,508] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:33:42,509] {logging_mixin.py:109} INFO - [2022-02-28 09:33:42,509] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:43,092] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:33:43,102] {logging_mixin.py:109} INFO - [2022-02-28 09:33:43,101] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:33:43,118] {logging_mixin.py:109} INFO - [2022-02-28 09:33:43,118] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:33:43,131] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.631 seconds
+[2022-02-28 09:34:13,293] {processor.py:163} INFO - Started process (PID=22654) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:13,301] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:34:13,303] {logging_mixin.py:109} INFO - [2022-02-28 09:34:13,303] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:13,945] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:13,958] {logging_mixin.py:109} INFO - [2022-02-28 09:34:13,958] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:34:13,975] {logging_mixin.py:109} INFO - [2022-02-28 09:34:13,975] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:34:13,988] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.701 seconds
+[2022-02-28 09:34:44,185] {processor.py:163} INFO - Started process (PID=22682) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:44,186] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:34:44,188] {logging_mixin.py:109} INFO - [2022-02-28 09:34:44,187] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:44,766] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:34:44,777] {logging_mixin.py:109} INFO - [2022-02-28 09:34:44,776] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:34:44,792] {logging_mixin.py:109} INFO - [2022-02-28 09:34:44,792] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:34:44,806] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.627 seconds
+[2022-02-28 09:35:14,913] {processor.py:163} INFO - Started process (PID=22709) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:14,920] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:35:14,922] {logging_mixin.py:109} INFO - [2022-02-28 09:35:14,922] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:15,514] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:15,525] {logging_mixin.py:109} INFO - [2022-02-28 09:35:15,524] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:35:15,539] {logging_mixin.py:109} INFO - [2022-02-28 09:35:15,539] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:35:15,557] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.649 seconds
+[2022-02-28 09:35:45,694] {processor.py:163} INFO - Started process (PID=22748) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:45,696] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:35:45,698] {logging_mixin.py:109} INFO - [2022-02-28 09:35:45,698] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:46,270] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:35:46,282] {logging_mixin.py:109} INFO - [2022-02-28 09:35:46,282] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:35:46,300] {logging_mixin.py:109} INFO - [2022-02-28 09:35:46,300] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:35:46,315] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.626 seconds
+[2022-02-28 09:36:16,451] {processor.py:163} INFO - Started process (PID=22779) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:16,458] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:36:16,460] {logging_mixin.py:109} INFO - [2022-02-28 09:36:16,460] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:17,047] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:17,057] {logging_mixin.py:109} INFO - [2022-02-28 09:36:17,057] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:36:17,071] {logging_mixin.py:109} INFO - [2022-02-28 09:36:17,071] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:36:17,086] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.640 seconds
+[2022-02-28 09:36:47,259] {processor.py:163} INFO - Started process (PID=22818) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:47,261] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:36:47,263] {logging_mixin.py:109} INFO - [2022-02-28 09:36:47,262] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:47,883] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:36:47,897] {logging_mixin.py:109} INFO - [2022-02-28 09:36:47,896] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:36:47,914] {logging_mixin.py:109} INFO - [2022-02-28 09:36:47,914] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:36:47,930] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.675 seconds
+[2022-02-28 09:37:18,079] {processor.py:163} INFO - Started process (PID=22846) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:18,081] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:37:18,082] {logging_mixin.py:109} INFO - [2022-02-28 09:37:18,082] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:18,664] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:18,676] {logging_mixin.py:109} INFO - [2022-02-28 09:37:18,675] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:37:18,690] {logging_mixin.py:109} INFO - [2022-02-28 09:37:18,690] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:37:18,700] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.625 seconds
+[2022-02-28 09:37:48,810] {processor.py:163} INFO - Started process (PID=22875) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:48,812] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:37:48,814] {logging_mixin.py:109} INFO - [2022-02-28 09:37:48,814] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:49,403] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:37:49,413] {logging_mixin.py:109} INFO - [2022-02-28 09:37:49,413] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:37:49,428] {logging_mixin.py:109} INFO - [2022-02-28 09:37:49,428] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:37:49,441] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.636 seconds
+[2022-02-28 09:38:19,540] {processor.py:163} INFO - Started process (PID=22913) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:19,548] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:38:19,550] {logging_mixin.py:109} INFO - [2022-02-28 09:38:19,550] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:20,328] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:20,341] {logging_mixin.py:109} INFO - [2022-02-28 09:38:20,341] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:38:20,360] {logging_mixin.py:109} INFO - [2022-02-28 09:38:20,360] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:38:20,373] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.837 seconds
+[2022-02-28 09:38:50,853] {processor.py:163} INFO - Started process (PID=22942) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:50,859] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:38:50,863] {logging_mixin.py:109} INFO - [2022-02-28 09:38:50,863] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:52,340] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:38:52,368] {logging_mixin.py:109} INFO - [2022-02-28 09:38:52,366] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:38:52,392] {logging_mixin.py:109} INFO - [2022-02-28 09:38:52,392] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:38:52,406] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.560 seconds
+[2022-02-28 09:39:22,532] {processor.py:163} INFO - Started process (PID=22970) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:22,534] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:39:22,536] {logging_mixin.py:109} INFO - [2022-02-28 09:39:22,536] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:23,261] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:23,273] {logging_mixin.py:109} INFO - [2022-02-28 09:39:23,272] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:39:23,290] {logging_mixin.py:109} INFO - [2022-02-28 09:39:23,290] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:39:23,301] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.776 seconds
+[2022-02-28 09:39:53,419] {processor.py:163} INFO - Started process (PID=23000) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:53,429] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:39:53,433] {logging_mixin.py:109} INFO - [2022-02-28 09:39:53,433] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:54,368] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:39:54,380] {logging_mixin.py:109} INFO - [2022-02-28 09:39:54,380] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:39:54,398] {logging_mixin.py:109} INFO - [2022-02-28 09:39:54,397] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:39:54,415] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.002 seconds
+[2022-02-28 09:40:24,525] {processor.py:163} INFO - Started process (PID=23059) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:24,527] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:40:24,528] {logging_mixin.py:109} INFO - [2022-02-28 09:40:24,528] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:25,162] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:25,176] {logging_mixin.py:109} INFO - [2022-02-28 09:40:25,175] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:40:25,197] {logging_mixin.py:109} INFO - [2022-02-28 09:40:25,197] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:40:25,212] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.691 seconds
+[2022-02-28 09:40:55,340] {processor.py:163} INFO - Started process (PID=23088) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:55,343] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:40:55,345] {logging_mixin.py:109} INFO - [2022-02-28 09:40:55,345] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:55,975] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:40:55,988] {logging_mixin.py:109} INFO - [2022-02-28 09:40:55,988] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:40:56,007] {logging_mixin.py:109} INFO - [2022-02-28 09:40:56,007] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:40:56,021] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.688 seconds
+[2022-02-28 09:41:26,130] {processor.py:163} INFO - Started process (PID=23116) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:26,132] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:41:26,133] {logging_mixin.py:109} INFO - [2022-02-28 09:41:26,133] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:26,847] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:26,858] {logging_mixin.py:109} INFO - [2022-02-28 09:41:26,858] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:41:26,877] {logging_mixin.py:109} INFO - [2022-02-28 09:41:26,876] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:41:26,894] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.769 seconds
+[2022-02-28 09:41:56,969] {processor.py:163} INFO - Started process (PID=23144) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:56,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:41:56,976] {logging_mixin.py:109} INFO - [2022-02-28 09:41:56,976] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:58,133] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:41:58,154] {logging_mixin.py:109} INFO - [2022-02-28 09:41:58,152] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:41:58,186] {logging_mixin.py:109} INFO - [2022-02-28 09:41:58,186] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:41:58,209] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.246 seconds
+[2022-02-28 09:42:28,355] {processor.py:163} INFO - Started process (PID=23196) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:42:28,374] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:42:28,383] {logging_mixin.py:109} INFO - [2022-02-28 09:42:28,382] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:42:29,367] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:42:29,379] {logging_mixin.py:109} INFO - [2022-02-28 09:42:29,378] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:42:29,398] {logging_mixin.py:109} INFO - [2022-02-28 09:42:29,398] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:42:29,410] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.072 seconds
+[2022-02-28 09:42:59,537] {processor.py:163} INFO - Started process (PID=23234) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:42:59,540] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:42:59,542] {logging_mixin.py:109} INFO - [2022-02-28 09:42:59,542] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:43:00,144] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:43:00,155] {logging_mixin.py:109} INFO - [2022-02-28 09:43:00,155] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:43:00,169] {logging_mixin.py:109} INFO - [2022-02-28 09:43:00,169] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:43:00,184] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.652 seconds
+[2022-02-28 09:43:30,307] {processor.py:163} INFO - Started process (PID=23264) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:43:30,310] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:43:30,311] {logging_mixin.py:109} INFO - [2022-02-28 09:43:30,311] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:43:30,961] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:43:30,976] {logging_mixin.py:109} INFO - [2022-02-28 09:43:30,976] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:43:30,994] {logging_mixin.py:109} INFO - [2022-02-28 09:43:30,994] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:43:31,008] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.705 seconds
+[2022-02-28 09:44:01,228] {processor.py:163} INFO - Started process (PID=23291) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:01,236] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:44:01,237] {logging_mixin.py:109} INFO - [2022-02-28 09:44:01,237] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:01,878] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:01,892] {logging_mixin.py:109} INFO - [2022-02-28 09:44:01,891] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:44:01,912] {logging_mixin.py:109} INFO - [2022-02-28 09:44:01,912] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:44:01,929] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.706 seconds
+[2022-02-28 09:44:32,059] {processor.py:163} INFO - Started process (PID=23331) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:32,062] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:44:32,065] {logging_mixin.py:109} INFO - [2022-02-28 09:44:32,064] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:32,933] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:32,946] {logging_mixin.py:109} INFO - [2022-02-28 09:44:32,946] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:44:32,966] {logging_mixin.py:109} INFO - [2022-02-28 09:44:32,966] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:44:32,989] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.937 seconds
+[2022-02-28 09:44:41,989] {processor.py:163} INFO - Started process (PID=23340) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:41,991] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:44:41,992] {logging_mixin.py:109} INFO - [2022-02-28 09:44:41,992] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:42,604] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:44:42,927] {logging_mixin.py:109} INFO - [2022-02-28 09:44:42,927] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:44:43,019] {logging_mixin.py:109} INFO - [2022-02-28 09:44:43,019] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:44:43,033] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.048 seconds
+[2022-02-28 09:45:13,208] {processor.py:163} INFO - Started process (PID=23368) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:13,210] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:45:13,212] {logging_mixin.py:109} INFO - [2022-02-28 09:45:13,212] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:14,091] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:14,103] {logging_mixin.py:109} INFO - [2022-02-28 09:45:14,102] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:45:14,125] {logging_mixin.py:109} INFO - [2022-02-28 09:45:14,125] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:45:14,141] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.939 seconds
+[2022-02-28 09:45:44,253] {processor.py:163} INFO - Started process (PID=23407) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:44,255] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:45:44,256] {logging_mixin.py:109} INFO - [2022-02-28 09:45:44,256] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:44,912] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:45:44,924] {logging_mixin.py:109} INFO - [2022-02-28 09:45:44,923] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:45:44,938] {logging_mixin.py:109} INFO - [2022-02-28 09:45:44,938] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:45:44,948] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.700 seconds
+[2022-02-28 09:46:15,054] {processor.py:163} INFO - Started process (PID=23440) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:15,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:46:15,058] {logging_mixin.py:109} INFO - [2022-02-28 09:46:15,058] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:15,656] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:15,666] {logging_mixin.py:109} INFO - [2022-02-28 09:46:15,666] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:46:15,680] {logging_mixin.py:109} INFO - [2022-02-28 09:46:15,680] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:46:15,693] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.644 seconds
+[2022-02-28 09:46:45,818] {processor.py:163} INFO - Started process (PID=23481) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:45,821] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:46:45,822] {logging_mixin.py:109} INFO - [2022-02-28 09:46:45,822] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:46,490] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:46:46,502] {logging_mixin.py:109} INFO - [2022-02-28 09:46:46,502] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:46:46,524] {logging_mixin.py:109} INFO - [2022-02-28 09:46:46,524] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:46:46,534] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.721 seconds
+[2022-02-28 09:47:16,586] {processor.py:163} INFO - Started process (PID=23511) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:16,589] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:47:16,591] {logging_mixin.py:109} INFO - [2022-02-28 09:47:16,591] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:17,207] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:17,218] {logging_mixin.py:109} INFO - [2022-02-28 09:47:17,218] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:47:17,235] {logging_mixin.py:109} INFO - [2022-02-28 09:47:17,235] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:47:17,252] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.671 seconds
+[2022-02-28 09:47:47,415] {processor.py:163} INFO - Started process (PID=23546) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:47,418] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:47:47,421] {logging_mixin.py:109} INFO - [2022-02-28 09:47:47,421] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:48,389] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:47:48,402] {logging_mixin.py:109} INFO - [2022-02-28 09:47:48,401] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:47:48,418] {logging_mixin.py:109} INFO - [2022-02-28 09:47:48,418] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:47:48,427] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.050 seconds
+[2022-02-28 09:48:18,552] {processor.py:163} INFO - Started process (PID=23576) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:18,554] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:48:18,558] {logging_mixin.py:109} INFO - [2022-02-28 09:48:18,557] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:19,341] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:19,352] {logging_mixin.py:109} INFO - [2022-02-28 09:48:19,352] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:48:19,366] {logging_mixin.py:109} INFO - [2022-02-28 09:48:19,366] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:48:19,380] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.843 seconds
+[2022-02-28 09:48:49,494] {processor.py:163} INFO - Started process (PID=23615) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:49,497] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:48:49,498] {logging_mixin.py:109} INFO - [2022-02-28 09:48:49,498] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:50,299] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:48:50,309] {logging_mixin.py:109} INFO - [2022-02-28 09:48:50,309] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:48:50,325] {logging_mixin.py:109} INFO - [2022-02-28 09:48:50,325] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:48:50,340] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.849 seconds
+[2022-02-28 09:49:20,465] {processor.py:163} INFO - Started process (PID=23643) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:20,472] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:49:20,476] {logging_mixin.py:109} INFO - [2022-02-28 09:49:20,476] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:21,287] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:21,299] {logging_mixin.py:109} INFO - [2022-02-28 09:49:21,299] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:49:21,314] {logging_mixin.py:109} INFO - [2022-02-28 09:49:21,314] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:49:21,324] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.872 seconds
+[2022-02-28 09:49:51,426] {processor.py:163} INFO - Started process (PID=23672) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:51,428] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:49:51,430] {logging_mixin.py:109} INFO - [2022-02-28 09:49:51,430] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:52,030] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:49:52,042] {logging_mixin.py:109} INFO - [2022-02-28 09:49:52,042] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:49:52,059] {logging_mixin.py:109} INFO - [2022-02-28 09:49:52,059] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:49:52,068] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.646 seconds
+[2022-02-28 09:50:22,158] {processor.py:163} INFO - Started process (PID=23711) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:22,161] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:50:22,163] {logging_mixin.py:109} INFO - [2022-02-28 09:50:22,163] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:23,221] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:23,230] {logging_mixin.py:109} INFO - [2022-02-28 09:50:23,230] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:50:23,244] {logging_mixin.py:109} INFO - [2022-02-28 09:50:23,244] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:50:23,259] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.104 seconds
+[2022-02-28 09:50:42,248] {processor.py:163} INFO - Started process (PID=23730) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:42,251] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:50:42,253] {logging_mixin.py:109} INFO - [2022-02-28 09:50:42,253] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:42,991] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:50:43,003] {logging_mixin.py:109} INFO - [2022-02-28 09:50:43,003] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:50:43,023] {logging_mixin.py:109} INFO - [2022-02-28 09:50:43,023] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:50:43,038] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.796 seconds
+[2022-02-28 09:51:13,185] {processor.py:163} INFO - Started process (PID=23764) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:13,189] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:51:13,193] {logging_mixin.py:109} INFO - [2022-02-28 09:51:13,192] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:14,872] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:14,886] {logging_mixin.py:109} INFO - [2022-02-28 09:51:14,885] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:51:14,909] {logging_mixin.py:109} INFO - [2022-02-28 09:51:14,909] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:51:14,921] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.747 seconds
+[2022-02-28 09:51:45,022] {processor.py:163} INFO - Started process (PID=23794) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:45,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:51:45,026] {logging_mixin.py:109} INFO - [2022-02-28 09:51:45,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:45,742] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:51:45,753] {logging_mixin.py:109} INFO - [2022-02-28 09:51:45,753] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:51:45,774] {logging_mixin.py:109} INFO - [2022-02-28 09:51:45,774] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:51:45,784] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.768 seconds
+[2022-02-28 09:52:06,889] {processor.py:163} INFO - Started process (PID=23824) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:06,891] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:52:06,892] {logging_mixin.py:109} INFO - [2022-02-28 09:52:06,892] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:07,519] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:07,529] {logging_mixin.py:109} INFO - [2022-02-28 09:52:07,529] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:52:07,544] {logging_mixin.py:109} INFO - [2022-02-28 09:52:07,544] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:52:07,561] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.677 seconds
+[2022-02-28 09:52:37,725] {processor.py:163} INFO - Started process (PID=23858) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:37,728] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:52:37,730] {logging_mixin.py:109} INFO - [2022-02-28 09:52:37,730] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:38,704] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:38,719] {logging_mixin.py:109} INFO - [2022-02-28 09:52:38,719] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:52:38,740] {logging_mixin.py:109} INFO - [2022-02-28 09:52:38,740] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:52:38,755] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.037 seconds
+[2022-02-28 09:52:55,776] {processor.py:163} INFO - Started process (PID=23877) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:55,777] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:52:55,779] {logging_mixin.py:109} INFO - [2022-02-28 09:52:55,779] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:56,418] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:52:56,428] {logging_mixin.py:109} INFO - [2022-02-28 09:52:56,428] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:52:56,447] {logging_mixin.py:109} INFO - [2022-02-28 09:52:56,447] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:52:56,466] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.695 seconds
+[2022-02-28 09:53:26,564] {processor.py:163} INFO - Started process (PID=23912) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:26,567] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:53:26,569] {logging_mixin.py:109} INFO - [2022-02-28 09:53:26,568] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:27,589] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:27,610] {logging_mixin.py:109} INFO - [2022-02-28 09:53:27,609] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:53:27,639] {logging_mixin.py:109} INFO - [2022-02-28 09:53:27,639] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:53:27,655] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.095 seconds
+[2022-02-28 09:53:57,795] {processor.py:163} INFO - Started process (PID=23940) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:57,797] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:53:57,800] {logging_mixin.py:109} INFO - [2022-02-28 09:53:57,799] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:58,721] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:53:58,733] {logging_mixin.py:109} INFO - [2022-02-28 09:53:58,733] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:53:58,755] {logging_mixin.py:109} INFO - [2022-02-28 09:53:58,754] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:53:58,781] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.993 seconds
+[2022-02-28 09:54:28,915] {processor.py:163} INFO - Started process (PID=23977) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:28,917] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:54:28,919] {logging_mixin.py:109} INFO - [2022-02-28 09:54:28,919] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:30,061] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:30,090] {logging_mixin.py:109} INFO - [2022-02-28 09:54:30,089] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:54:30,122] {logging_mixin.py:109} INFO - [2022-02-28 09:54:30,122] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:54:30,144] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.234 seconds
+[2022-02-28 09:54:33,212] {processor.py:163} INFO - Started process (PID=23986) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:33,214] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:54:33,216] {logging_mixin.py:109} INFO - [2022-02-28 09:54:33,216] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:33,921] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:54:33,932] {logging_mixin.py:109} INFO - [2022-02-28 09:54:33,932] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:54:33,951] {logging_mixin.py:109} INFO - [2022-02-28 09:54:33,951] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:54:33,968] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.760 seconds
+[2022-02-28 09:55:04,050] {processor.py:163} INFO - Started process (PID=24013) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:04,052] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:55:04,054] {logging_mixin.py:109} INFO - [2022-02-28 09:55:04,053] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:04,833] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:04,842] {logging_mixin.py:109} INFO - [2022-02-28 09:55:04,842] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:55:04,858] {logging_mixin.py:109} INFO - [2022-02-28 09:55:04,858] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:55:04,869] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.823 seconds
+[2022-02-28 09:55:35,021] {processor.py:163} INFO - Started process (PID=24047) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:35,024] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:55:35,026] {logging_mixin.py:109} INFO - [2022-02-28 09:55:35,026] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:35,712] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:55:35,728] {logging_mixin.py:109} INFO - [2022-02-28 09:55:35,727] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:55:35,756] {logging_mixin.py:109} INFO - [2022-02-28 09:55:35,755] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:55:35,865] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.849 seconds
+[2022-02-28 09:56:05,981] {processor.py:163} INFO - Started process (PID=24085) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:05,983] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:56:05,985] {logging_mixin.py:109} INFO - [2022-02-28 09:56:05,984] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:06,591] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:06,601] {logging_mixin.py:109} INFO - [2022-02-28 09:56:06,600] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:56:06,616] {logging_mixin.py:109} INFO - [2022-02-28 09:56:06,616] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:56:06,630] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.656 seconds
+[2022-02-28 09:56:36,770] {processor.py:163} INFO - Started process (PID=24114) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:36,772] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:56:36,773] {logging_mixin.py:109} INFO - [2022-02-28 09:56:36,773] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:37,389] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:37,399] {logging_mixin.py:109} INFO - [2022-02-28 09:56:37,399] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 09:56:37,413] {logging_mixin.py:109} INFO - [2022-02-28 09:56:37,413] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 09:56:37,429] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.666 seconds
+[2022-02-28 09:56:41,374] {processor.py:163} INFO - Started process (PID=24131) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:41,378] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:56:41,380] {logging_mixin.py:109} INFO - [2022-02-28 09:56:41,380] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:41,402] {logging_mixin.py:109} INFO - [2022-02-28 09:56:41,398] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 09:56:41,453] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:41,455] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:56:41,473] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.102 seconds
+[2022-02-28 09:57:11,611] {processor.py:163} INFO - Started process (PID=24158) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:11,614] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:57:11,615] {logging_mixin.py:109} INFO - [2022-02-28 09:57:11,615] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:11,622] {logging_mixin.py:109} INFO - [2022-02-28 09:57:11,620] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 09:57:11,642] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:11,656] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.049 seconds
+[2022-02-28 09:57:41,747] {processor.py:163} INFO - Started process (PID=24184) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:41,749] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:57:41,750] {logging_mixin.py:109} INFO - [2022-02-28 09:57:41,750] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:41,757] {logging_mixin.py:109} INFO - [2022-02-28 09:57:41,756] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 09:57:41,775] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:57:41,790] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.048 seconds
+[2022-02-28 09:58:11,961] {processor.py:163} INFO - Started process (PID=24209) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:11,972] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:58:11,980] {logging_mixin.py:109} INFO - [2022-02-28 09:58:11,979] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:12,009] {logging_mixin.py:109} INFO - [2022-02-28 09:58:12,005] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 09:58:12,157] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:12,220] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.280 seconds
+[2022-02-28 09:58:19,951] {processor.py:163} INFO - Started process (PID=24224) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:19,953] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:58:19,954] {logging_mixin.py:109} INFO - [2022-02-28 09:58:19,954] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:19,964] {logging_mixin.py:109} INFO - [2022-02-28 09:58:19,963] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+      ^
+IndentationError: expected an indented block
+[2022-02-28 09:58:19,998] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:20,025] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.078 seconds
+[2022-02-28 09:58:50,075] {processor.py:163} INFO - Started process (PID=24247) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:50,078] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:58:50,080] {logging_mixin.py:109} INFO - [2022-02-28 09:58:50,080] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:50,089] {logging_mixin.py:109} INFO - [2022-02-28 09:58:50,088] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+      ^
+IndentationError: expected an indented block
+[2022-02-28 09:58:50,115] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:58:50,129] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.058 seconds
+[2022-02-28 09:59:20,220] {processor.py:163} INFO - Started process (PID=24281) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:20,227] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:59:20,229] {logging_mixin.py:109} INFO - [2022-02-28 09:59:20,229] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:20,237] {logging_mixin.py:109} INFO - [2022-02-28 09:59:20,236] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+      ^
+IndentationError: expected an indented block
+[2022-02-28 09:59:20,261] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:20,274] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.058 seconds
+[2022-02-28 09:59:50,380] {processor.py:163} INFO - Started process (PID=24306) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:50,393] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 09:59:50,401] {logging_mixin.py:109} INFO - [2022-02-28 09:59:50,400] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:50,432] {logging_mixin.py:109} INFO - [2022-02-28 09:59:50,427] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 17
+    def upload_file_to_s3(filename, key, bucket_name):
+      ^
+IndentationError: expected an indented block
+[2022-02-28 09:59:50,517] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 09:59:50,539] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.171 seconds
+[2022-02-28 10:00:16,491] {processor.py:163} INFO - Started process (PID=24330) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:16,493] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:00:16,495] {logging_mixin.py:109} INFO - [2022-02-28 10:00:16,494] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:17,283] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:17,296] {logging_mixin.py:109} INFO - [2022-02-28 10:00:17,295] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:00:17,316] {logging_mixin.py:109} INFO - [2022-02-28 10:00:17,316] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:00:17,332] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.845 seconds
+[2022-02-28 10:00:47,509] {processor.py:163} INFO - Started process (PID=24365) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:47,513] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:00:47,518] {logging_mixin.py:109} INFO - [2022-02-28 10:00:47,517] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:48,876] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:00:48,888] {logging_mixin.py:109} INFO - [2022-02-28 10:00:48,888] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:00:48,909] {logging_mixin.py:109} INFO - [2022-02-28 10:00:48,909] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:00:48,922] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.447 seconds
+[2022-02-28 10:01:19,015] {processor.py:163} INFO - Started process (PID=24395) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:19,017] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:01:19,019] {logging_mixin.py:109} INFO - [2022-02-28 10:01:19,019] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:19,674] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:19,691] {logging_mixin.py:109} INFO - [2022-02-28 10:01:19,691] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:01:19,712] {logging_mixin.py:109} INFO - [2022-02-28 10:01:19,712] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:01:19,728] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.717 seconds
+[2022-02-28 10:01:49,943] {processor.py:163} INFO - Started process (PID=24423) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:49,950] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:01:49,954] {logging_mixin.py:109} INFO - [2022-02-28 10:01:49,954] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:51,376] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:01:51,480] {logging_mixin.py:109} INFO - [2022-02-28 10:01:51,476] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:01:51,672] {logging_mixin.py:109} INFO - [2022-02-28 10:01:51,670] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:01:51,777] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.850 seconds
+[2022-02-28 10:02:07,923] {processor.py:163} INFO - Started process (PID=24452) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:07,927] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:02:07,930] {logging_mixin.py:109} INFO - [2022-02-28 10:02:07,930] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:08,775] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:09,175] {logging_mixin.py:109} INFO - [2022-02-28 10:02:09,175] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:02:09,318] {logging_mixin.py:109} INFO - [2022-02-28 10:02:09,318] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:02:09,350] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.434 seconds
+[2022-02-28 10:02:39,471] {processor.py:163} INFO - Started process (PID=24481) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:39,473] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:02:39,475] {logging_mixin.py:109} INFO - [2022-02-28 10:02:39,475] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:40,159] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:02:40,175] {logging_mixin.py:109} INFO - [2022-02-28 10:02:40,173] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:02:40,195] {logging_mixin.py:109} INFO - [2022-02-28 10:02:40,195] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:02:40,209] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.743 seconds
+[2022-02-28 10:03:10,333] {processor.py:163} INFO - Started process (PID=24510) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:10,339] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:03:10,342] {logging_mixin.py:109} INFO - [2022-02-28 10:03:10,341] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:11,491] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:11,503] {logging_mixin.py:109} INFO - [2022-02-28 10:03:11,502] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:03:11,519] {logging_mixin.py:109} INFO - [2022-02-28 10:03:11,519] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:03:11,533] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.209 seconds
+[2022-02-28 10:03:41,701] {processor.py:163} INFO - Started process (PID=24548) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:41,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:03:41,706] {logging_mixin.py:109} INFO - [2022-02-28 10:03:41,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:43,025] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:03:43,041] {logging_mixin.py:109} INFO - [2022-02-28 10:03:43,040] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:03:43,059] {logging_mixin.py:109} INFO - [2022-02-28 10:03:43,059] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:03:43,074] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.380 seconds
+[2022-02-28 10:04:13,197] {processor.py:163} INFO - Started process (PID=24577) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:13,199] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:04:13,200] {logging_mixin.py:109} INFO - [2022-02-28 10:04:13,200] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:13,823] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:13,833] {logging_mixin.py:109} INFO - [2022-02-28 10:04:13,832] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:04:13,848] {logging_mixin.py:109} INFO - [2022-02-28 10:04:13,848] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:04:13,858] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.667 seconds
+[2022-02-28 10:04:18,802] {processor.py:163} INFO - Started process (PID=24586) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:18,804] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:04:18,806] {logging_mixin.py:109} INFO - [2022-02-28 10:04:18,806] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:19,539] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:19,560] {logging_mixin.py:109} INFO - [2022-02-28 10:04:19,559] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:04:19,582] {logging_mixin.py:109} INFO - [2022-02-28 10:04:19,582] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:04:19,607] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.809 seconds
+[2022-02-28 10:04:49,731] {processor.py:163} INFO - Started process (PID=24625) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:49,733] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:04:49,734] {logging_mixin.py:109} INFO - [2022-02-28 10:04:49,734] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:50,480] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:04:50,491] {logging_mixin.py:109} INFO - [2022-02-28 10:04:50,491] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:04:50,525] {logging_mixin.py:109} INFO - [2022-02-28 10:04:50,525] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:04:50,551] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.824 seconds
+[2022-02-28 10:05:20,702] {processor.py:163} INFO - Started process (PID=24655) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:20,704] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:05:20,706] {logging_mixin.py:109} INFO - [2022-02-28 10:05:20,706] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:21,586] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:21,606] {logging_mixin.py:109} INFO - [2022-02-28 10:05:21,605] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:05:21,630] {logging_mixin.py:109} INFO - [2022-02-28 10:05:21,630] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:05:21,646] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.950 seconds
+[2022-02-28 10:05:51,843] {processor.py:163} INFO - Started process (PID=24682) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:51,845] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:05:51,847] {logging_mixin.py:109} INFO - [2022-02-28 10:05:51,847] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:52,669] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:05:52,679] {logging_mixin.py:109} INFO - [2022-02-28 10:05:52,679] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:05:52,695] {logging_mixin.py:109} INFO - [2022-02-28 10:05:52,695] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:05:52,709] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.874 seconds
+[2022-02-28 10:06:22,834] {processor.py:163} INFO - Started process (PID=24721) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:22,838] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:06:22,840] {logging_mixin.py:109} INFO - [2022-02-28 10:06:22,840] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:23,864] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:23,874] {logging_mixin.py:109} INFO - [2022-02-28 10:06:23,874] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:06:23,889] {logging_mixin.py:109} INFO - [2022-02-28 10:06:23,888] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:06:23,903] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.074 seconds
+[2022-02-28 10:06:50,062] {processor.py:163} INFO - Started process (PID=24750) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:50,064] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:06:50,065] {logging_mixin.py:109} INFO - [2022-02-28 10:06:50,065] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:50,752] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:06:50,763] {logging_mixin.py:109} INFO - [2022-02-28 10:06:50,763] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:06:50,779] {logging_mixin.py:109} INFO - [2022-02-28 10:06:50,779] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:06:50,794] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.736 seconds
+[2022-02-28 10:07:20,942] {processor.py:163} INFO - Started process (PID=24800) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:20,950] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:07:20,953] {logging_mixin.py:109} INFO - [2022-02-28 10:07:20,952] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:22,173] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:22,185] {logging_mixin.py:109} INFO - [2022-02-28 10:07:22,185] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:07:22,209] {logging_mixin.py:109} INFO - [2022-02-28 10:07:22,209] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:07:22,223] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.286 seconds
+[2022-02-28 10:07:52,281] {processor.py:163} INFO - Started process (PID=24829) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:52,283] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:07:52,285] {logging_mixin.py:109} INFO - [2022-02-28 10:07:52,285] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:52,914] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:07:52,925] {logging_mixin.py:109} INFO - [2022-02-28 10:07:52,924] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:07:52,942] {logging_mixin.py:109} INFO - [2022-02-28 10:07:52,942] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:07:52,952] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.675 seconds
+[2022-02-28 10:08:20,054] {processor.py:163} INFO - Started process (PID=24864) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:20,056] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:08:20,057] {logging_mixin.py:109} INFO - [2022-02-28 10:08:20,057] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:20,758] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:20,769] {logging_mixin.py:109} INFO - [2022-02-28 10:08:20,769] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:08:20,786] {logging_mixin.py:109} INFO - [2022-02-28 10:08:20,786] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:08:20,804] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.755 seconds
+[2022-02-28 10:08:50,905] {processor.py:163} INFO - Started process (PID=24901) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:50,914] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:08:50,915] {logging_mixin.py:109} INFO - [2022-02-28 10:08:50,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:51,867] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:08:51,880] {logging_mixin.py:109} INFO - [2022-02-28 10:08:51,880] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:08:51,903] {logging_mixin.py:109} INFO - [2022-02-28 10:08:51,902] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:08:51,918] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.018 seconds
+[2022-02-28 10:09:22,111] {processor.py:163} INFO - Started process (PID=24930) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:22,113] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:09:22,115] {logging_mixin.py:109} INFO - [2022-02-28 10:09:22,114] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:22,740] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:22,751] {logging_mixin.py:109} INFO - [2022-02-28 10:09:22,750] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:09:22,767] {logging_mixin.py:109} INFO - [2022-02-28 10:09:22,767] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:09:22,779] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.673 seconds
+[2022-02-28 10:09:52,895] {processor.py:163} INFO - Started process (PID=24959) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:52,897] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:09:52,899] {logging_mixin.py:109} INFO - [2022-02-28 10:09:52,899] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:53,493] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:09:53,503] {logging_mixin.py:109} INFO - [2022-02-28 10:09:53,502] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:09:53,518] {logging_mixin.py:109} INFO - [2022-02-28 10:09:53,517] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:09:53,532] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.640 seconds
+[2022-02-28 10:10:23,615] {processor.py:163} INFO - Started process (PID=24997) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:23,619] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:10:23,621] {logging_mixin.py:109} INFO - [2022-02-28 10:10:23,621] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:24,222] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:24,233] {logging_mixin.py:109} INFO - [2022-02-28 10:10:24,233] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:10:24,250] {logging_mixin.py:109} INFO - [2022-02-28 10:10:24,250] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:10:24,267] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.656 seconds
+[2022-02-28 10:10:53,404] {processor.py:163} INFO - Started process (PID=25026) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:53,406] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:10:53,408] {logging_mixin.py:109} INFO - [2022-02-28 10:10:53,408] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:54,116] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:10:54,130] {logging_mixin.py:109} INFO - [2022-02-28 10:10:54,130] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:10:54,148] {logging_mixin.py:109} INFO - [2022-02-28 10:10:54,148] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:10:54,162] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.761 seconds
+[2022-02-28 10:11:24,295] {processor.py:163} INFO - Started process (PID=25060) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:24,298] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:11:24,302] {logging_mixin.py:109} INFO - [2022-02-28 10:11:24,302] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:26,308] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:26,323] {logging_mixin.py:109} INFO - [2022-02-28 10:11:26,323] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:11:26,361] {logging_mixin.py:109} INFO - [2022-02-28 10:11:26,361] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:11:26,377] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 2.091 seconds
+[2022-02-28 10:11:56,460] {processor.py:163} INFO - Started process (PID=25098) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:56,462] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:11:56,463] {logging_mixin.py:109} INFO - [2022-02-28 10:11:56,463] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:57,217] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:57,229] {logging_mixin.py:109} INFO - [2022-02-28 10:11:57,228] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:11:57,245] {logging_mixin.py:109} INFO - [2022-02-28 10:11:57,245] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:11:57,261] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.805 seconds
+[2022-02-28 10:11:59,319] {processor.py:163} INFO - Started process (PID=25107) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:11:59,322] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:11:59,323] {logging_mixin.py:109} INFO - [2022-02-28 10:11:59,323] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:12:00,000] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:12:00,012] {logging_mixin.py:109} INFO - [2022-02-28 10:12:00,012] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:12:00,033] {logging_mixin.py:109} INFO - [2022-02-28 10:12:00,033] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:12:00,056] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.741 seconds
+[2022-02-28 10:12:30,338] {processor.py:163} INFO - Started process (PID=25144) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:12:30,341] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:12:30,344] {logging_mixin.py:109} INFO - [2022-02-28 10:12:30,343] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:12:33,285] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:12:33,307] {logging_mixin.py:109} INFO - [2022-02-28 10:12:33,306] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:12:33,355] {logging_mixin.py:109} INFO - [2022-02-28 10:12:33,355] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:12:33,377] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 3.046 seconds
+[2022-02-28 10:13:03,560] {processor.py:163} INFO - Started process (PID=25173) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:03,562] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:13:03,564] {logging_mixin.py:109} INFO - [2022-02-28 10:13:03,564] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:04,348] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:04,358] {logging_mixin.py:109} INFO - [2022-02-28 10:13:04,357] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:13:04,373] {logging_mixin.py:109} INFO - [2022-02-28 10:13:04,373] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:13:04,388] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.835 seconds
+[2022-02-28 10:13:34,521] {processor.py:163} INFO - Started process (PID=25204) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:34,524] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:13:34,525] {logging_mixin.py:109} INFO - [2022-02-28 10:13:34,525] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:35,119] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:13:35,132] {logging_mixin.py:109} INFO - [2022-02-28 10:13:35,131] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:13:35,150] {logging_mixin.py:109} INFO - [2022-02-28 10:13:35,150] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:13:35,166] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.651 seconds
+[2022-02-28 10:14:05,262] {processor.py:163} INFO - Started process (PID=25242) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:05,265] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:14:05,267] {logging_mixin.py:109} INFO - [2022-02-28 10:14:05,266] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:05,920] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:05,931] {logging_mixin.py:109} INFO - [2022-02-28 10:14:05,930] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:14:05,948] {logging_mixin.py:109} INFO - [2022-02-28 10:14:05,948] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:14:05,963] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.707 seconds
+[2022-02-28 10:14:36,045] {processor.py:163} INFO - Started process (PID=25271) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:36,049] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:14:36,051] {logging_mixin.py:109} INFO - [2022-02-28 10:14:36,051] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:36,704] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:14:36,721] {logging_mixin.py:109} INFO - [2022-02-28 10:14:36,721] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:14:36,739] {logging_mixin.py:109} INFO - [2022-02-28 10:14:36,739] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:14:36,753] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.712 seconds
+[2022-02-28 10:15:06,874] {processor.py:163} INFO - Started process (PID=25301) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:06,877] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:15:06,879] {logging_mixin.py:109} INFO - [2022-02-28 10:15:06,879] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:07,511] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:07,527] {logging_mixin.py:109} INFO - [2022-02-28 10:15:07,526] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:15:07,545] {logging_mixin.py:109} INFO - [2022-02-28 10:15:07,545] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:15:07,562] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.692 seconds
+[2022-02-28 10:15:37,667] {processor.py:163} INFO - Started process (PID=25339) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:37,669] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:15:37,671] {logging_mixin.py:109} INFO - [2022-02-28 10:15:37,671] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:38,277] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:15:38,289] {logging_mixin.py:109} INFO - [2022-02-28 10:15:38,289] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:15:38,304] {logging_mixin.py:109} INFO - [2022-02-28 10:15:38,304] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:15:38,315] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.653 seconds
+[2022-02-28 10:16:05,378] {processor.py:163} INFO - Started process (PID=25367) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:05,382] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:16:05,387] {logging_mixin.py:109} INFO - [2022-02-28 10:16:05,387] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:05,408] {logging_mixin.py:109} INFO - [2022-02-28 10:16:05,399] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:16:05,436] {processor.py:690} INFO - Deactivated 1 DAGs which are no longer present in /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:05,437] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:05,456] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.086 seconds
+[2022-02-28 10:16:35,654] {processor.py:163} INFO - Started process (PID=25391) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:35,662] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:16:35,665] {logging_mixin.py:109} INFO - [2022-02-28 10:16:35,665] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:35,676] {logging_mixin.py:109} INFO - [2022-02-28 10:16:35,674] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:16:35,704] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:16:35,720] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.071 seconds
+[2022-02-28 10:17:05,792] {processor.py:163} INFO - Started process (PID=25415) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:05,799] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:17:05,801] {logging_mixin.py:109} INFO - [2022-02-28 10:17:05,800] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:05,810] {logging_mixin.py:109} INFO - [2022-02-28 10:17:05,808] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:17:05,841] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:05,851] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.064 seconds
+[2022-02-28 10:17:35,945] {processor.py:163} INFO - Started process (PID=25446) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:35,956] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:17:35,963] {logging_mixin.py:109} INFO - [2022-02-28 10:17:35,963] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:35,971] {logging_mixin.py:109} INFO - [2022-02-28 10:17:35,970] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:17:36,001] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:17:36,021] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.079 seconds
+[2022-02-28 10:18:06,089] {processor.py:163} INFO - Started process (PID=25472) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:06,095] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:18:06,100] {logging_mixin.py:109} INFO - [2022-02-28 10:18:06,100] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:06,122] {logging_mixin.py:109} INFO - [2022-02-28 10:18:06,120] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:18:06,160] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:06,176] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.096 seconds
+[2022-02-28 10:18:36,259] {processor.py:163} INFO - Started process (PID=25497) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:36,262] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:18:36,264] {logging_mixin.py:109} INFO - [2022-02-28 10:18:36,264] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:36,274] {logging_mixin.py:109} INFO - [2022-02-28 10:18:36,272] {dagbag.py:334} ERROR - Failed to import: /opt/airflow/dags/example_dag.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 331, in _load_modules_from_file
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 724, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 860, in get_code
+  File "<frozen importlib._bootstrap_external>", line 791, in source_to_code
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/example_dag.py", line 20
+    def upload_file_to_s3(filename, key, bucket_name):
+                                                     ^
+IndentationError: expected an indented block
+[2022-02-28 10:18:36,302] {processor.py:656} WARNING - No viable dags retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:18:36,322] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.069 seconds
+[2022-02-28 10:19:01,347] {processor.py:163} INFO - Started process (PID=25521) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:01,350] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:19:01,352] {logging_mixin.py:109} INFO - [2022-02-28 10:19:01,352] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:02,127] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:02,140] {logging_mixin.py:109} INFO - [2022-02-28 10:19:02,139] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:19:02,158] {logging_mixin.py:109} INFO - [2022-02-28 10:19:02,158] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:19:02,175] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.836 seconds
+[2022-02-28 10:19:32,288] {processor.py:163} INFO - Started process (PID=25555) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:32,293] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:19:32,298] {logging_mixin.py:109} INFO - [2022-02-28 10:19:32,298] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:33,496] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:19:33,518] {logging_mixin.py:109} INFO - [2022-02-28 10:19:33,517] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:19:33,542] {logging_mixin.py:109} INFO - [2022-02-28 10:19:33,542] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:19:33,562] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.284 seconds
+[2022-02-28 10:20:03,681] {processor.py:163} INFO - Started process (PID=25584) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:03,683] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:20:03,685] {logging_mixin.py:109} INFO - [2022-02-28 10:20:03,684] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:04,408] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:04,419] {logging_mixin.py:109} INFO - [2022-02-28 10:20:04,419] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:20:04,439] {logging_mixin.py:109} INFO - [2022-02-28 10:20:04,439] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:20:04,456] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.779 seconds
+[2022-02-28 10:20:34,540] {processor.py:163} INFO - Started process (PID=25620) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:34,543] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:20:34,546] {logging_mixin.py:109} INFO - [2022-02-28 10:20:34,546] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:35,307] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:20:35,319] {logging_mixin.py:109} INFO - [2022-02-28 10:20:35,319] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:20:35,339] {logging_mixin.py:109} INFO - [2022-02-28 10:20:35,339] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:20:35,355] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.822 seconds
+[2022-02-28 10:21:05,475] {processor.py:163} INFO - Started process (PID=25648) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:05,477] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:21:05,479] {logging_mixin.py:109} INFO - [2022-02-28 10:21:05,478] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:06,239] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:06,252] {logging_mixin.py:109} INFO - [2022-02-28 10:21:06,251] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:21:06,271] {logging_mixin.py:109} INFO - [2022-02-28 10:21:06,270] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:21:06,280] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.809 seconds
+[2022-02-28 10:21:36,397] {processor.py:163} INFO - Started process (PID=25676) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:36,399] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:21:36,401] {logging_mixin.py:109} INFO - [2022-02-28 10:21:36,401] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:36,997] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:21:37,007] {logging_mixin.py:109} INFO - [2022-02-28 10:21:37,007] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:21:37,022] {logging_mixin.py:109} INFO - [2022-02-28 10:21:37,022] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:21:37,036] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.643 seconds
+[2022-02-28 10:22:07,194] {processor.py:163} INFO - Started process (PID=25713) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:07,198] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:22:07,202] {logging_mixin.py:109} INFO - [2022-02-28 10:22:07,201] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:08,676] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:08,699] {logging_mixin.py:109} INFO - [2022-02-28 10:22:08,699] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:22:08,725] {logging_mixin.py:109} INFO - [2022-02-28 10:22:08,725] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:22:08,745] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.558 seconds
+[2022-02-28 10:22:38,895] {processor.py:163} INFO - Started process (PID=25742) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:38,905] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:22:38,915] {logging_mixin.py:109} INFO - [2022-02-28 10:22:38,915] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:39,614] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:39,626] {logging_mixin.py:109} INFO - [2022-02-28 10:22:39,625] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:22:39,643] {logging_mixin.py:109} INFO - [2022-02-28 10:22:39,643] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:22:39,656] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.768 seconds
+[2022-02-28 10:22:43,763] {processor.py:163} INFO - Started process (PID=25751) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:43,767] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:22:43,769] {logging_mixin.py:109} INFO - [2022-02-28 10:22:43,769] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:44,564] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:22:44,579] {logging_mixin.py:109} INFO - [2022-02-28 10:22:44,579] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:22:44,605] {logging_mixin.py:109} INFO - [2022-02-28 10:22:44,605] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:22:44,630] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.876 seconds
+[2022-02-28 10:23:14,752] {processor.py:163} INFO - Started process (PID=25785) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:14,763] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:23:14,770] {logging_mixin.py:109} INFO - [2022-02-28 10:23:14,770] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:16,344] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:16,361] {logging_mixin.py:109} INFO - [2022-02-28 10:23:16,361] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:23:16,386] {logging_mixin.py:109} INFO - [2022-02-28 10:23:16,386] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:23:16,402] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.664 seconds
+[2022-02-28 10:23:46,505] {processor.py:163} INFO - Started process (PID=25815) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:46,506] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:23:46,508] {logging_mixin.py:109} INFO - [2022-02-28 10:23:46,507] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:47,256] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:23:47,267] {logging_mixin.py:109} INFO - [2022-02-28 10:23:47,266] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:23:47,284] {logging_mixin.py:109} INFO - [2022-02-28 10:23:47,284] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:23:47,300] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.827 seconds
+[2022-02-28 10:24:17,402] {processor.py:163} INFO - Started process (PID=25854) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:17,404] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:24:17,405] {logging_mixin.py:109} INFO - [2022-02-28 10:24:17,405] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:18,126] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:18,139] {logging_mixin.py:109} INFO - [2022-02-28 10:24:18,139] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:24:18,156] {logging_mixin.py:109} INFO - [2022-02-28 10:24:18,156] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:24:18,177] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.782 seconds
+[2022-02-28 10:24:48,269] {processor.py:163} INFO - Started process (PID=25883) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:48,272] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:24:48,274] {logging_mixin.py:109} INFO - [2022-02-28 10:24:48,273] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:48,968] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:24:48,987] {logging_mixin.py:109} INFO - [2022-02-28 10:24:48,986] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:24:49,013] {logging_mixin.py:109} INFO - [2022-02-28 10:24:49,013] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:24:49,027] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.762 seconds
+[2022-02-28 10:25:05,060] {processor.py:163} INFO - Started process (PID=25902) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:05,063] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:25:05,067] {logging_mixin.py:109} INFO - [2022-02-28 10:25:05,066] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:05,758] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:05,772] {logging_mixin.py:109} INFO - [2022-02-28 10:25:05,771] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:25:05,791] {logging_mixin.py:109} INFO - [2022-02-28 10:25:05,791] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:25:05,811] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 0.759 seconds
+[2022-02-28 10:25:36,112] {processor.py:163} INFO - Started process (PID=25937) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:36,116] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:25:36,124] {logging_mixin.py:109} INFO - [2022-02-28 10:25:36,123] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:37,729] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:25:37,742] {logging_mixin.py:109} INFO - [2022-02-28 10:25:37,742] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:25:37,771] {logging_mixin.py:109} INFO - [2022-02-28 10:25:37,771] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:25:37,783] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.690 seconds
+[2022-02-28 10:26:05,963] {processor.py:163} INFO - Started process (PID=25974) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:05,966] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:26:05,971] {logging_mixin.py:109} INFO - [2022-02-28 10:26:05,970] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:06,978] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:06,998] {logging_mixin.py:109} INFO - [2022-02-28 10:26:06,998] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:26:07,031] {logging_mixin.py:109} INFO - [2022-02-28 10:26:07,031] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:26:07,058] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.100 seconds
+[2022-02-28 10:26:36,152] {processor.py:163} INFO - Started process (PID=26003) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:36,155] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:26:36,158] {logging_mixin.py:109} INFO - [2022-02-28 10:26:36,157] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:37,174] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:26:37,191] {logging_mixin.py:109} INFO - [2022-02-28 10:26:37,191] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:26:37,217] {logging_mixin.py:109} INFO - [2022-02-28 10:26:37,217] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:26:37,241] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.096 seconds
+[2022-02-28 10:27:07,418] {processor.py:163} INFO - Started process (PID=26038) to work on /opt/airflow/dags/example_dag.py
+[2022-02-28 10:27:07,424] {processor.py:642} INFO - Processing file /opt/airflow/dags/example_dag.py for tasks to queue
+[2022-02-28 10:27:07,427] {logging_mixin.py:109} INFO - [2022-02-28 10:27:07,426] {dagbag.py:500} INFO - Filling up the DagBag from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:27:08,744] {processor.py:654} INFO - DAG(s) dict_keys(['test_s3_connection']) retrieved from /opt/airflow/dags/example_dag.py
+[2022-02-28 10:27:08,758] {logging_mixin.py:109} INFO - [2022-02-28 10:27:08,758] {dag.py:2398} INFO - Sync 1 DAGs
+[2022-02-28 10:27:08,782] {logging_mixin.py:109} INFO - [2022-02-28 10:27:08,782] {dag.py:2937} INFO - Setting next_dagrun for test_s3_connection to None
+[2022-02-28 10:27:08,801] {processor.py:171} INFO - Processing /opt/airflow/dags/example_dag.py took 1.393 seconds

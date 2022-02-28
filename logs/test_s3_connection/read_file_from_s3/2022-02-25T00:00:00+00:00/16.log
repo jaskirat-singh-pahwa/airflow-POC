@@ -1,0 +1,28 @@
+[2022-02-28 09:55:17,476] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:55:17,489] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-02-28 09:55:17,490] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:55:17,491] {taskinstance.py:1244} INFO - Starting attempt 16 of 16
+[2022-02-28 09:55:17,492] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-02-28 09:55:17,505] {taskinstance.py:1264} INFO - Executing <Task(PythonOperator): read_file_from_s3> on 2022-02-25 00:00:00+00:00
+[2022-02-28 09:55:17,512] {standard_task_runner.py:52} INFO - Started process 24036 to run task
+[2022-02-28 09:55:17,516] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_s3_connection', 'read_file_from_s3', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '91', '--raw', '--subdir', 'DAGS_FOLDER/example_dag.py', '--cfg-path', '/tmp/tmpybqb9_ru', '--error-file', '/tmp/tmpp3geojxc']
+[2022-02-28 09:55:17,518] {standard_task_runner.py:77} INFO - Job 91: Subtask read_file_from_s3
+[2022-02-28 09:55:17,579] {logging_mixin.py:109} INFO - Running <TaskInstance: test_s3_connection.read_file_from_s3 scheduled__2022-02-25T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-02-28 09:55:17,654] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_s3_connection
+AIRFLOW_CTX_TASK_ID=read_file_from_s3
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-02-28 09:55:17,668] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-02-28 09:55:19,657] {logging_mixin.py:109} INFO - yes
+[2022-02-28 09:55:19,658] {logging_mixin.py:109} INFO - yes
+[2022-02-28 09:55:19,659] {logging_mixin.py:109} INFO - yes
+[2022-02-28 09:55:19,665] {logging_mixin.py:109} INFO - yes
+[2022-02-28 09:55:19,666] {logging_mixin.py:109} INFO - yes
+[2022-02-28 09:55:19,667] {python.py:175} INFO - Done. Returned value was: None
+[2022-02-28 09:55:19,682] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=test_s3_connection, task_id=read_file_from_s3, execution_date=20220225T000000, start_date=20220228T095517, end_date=20220228T095519
+[2022-02-28 09:55:19,721] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-02-28 09:55:19,756] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

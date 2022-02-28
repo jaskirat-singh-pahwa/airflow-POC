@@ -10,8 +10,14 @@ from datetime import datetime
 
 
 def process_data_from_s3(raw_data):
-    for data in raw_data.split(","):
-        print(data)
+    data_set = []
+
+    columns = raw_data.split("\n")[0].split(",")
+
+    for row in raw_data.split("\n")[1:]:
+        data_set.append(row.split(","))
+
+    print(pd.DataFrame(data=data_set, columns=columns))
 
 
 def upload_file_to_s3(filename, key, bucket_name):
@@ -22,8 +28,6 @@ def upload_file_to_s3(filename, key, bucket_name):
 def read_file_from_s3(key, bucket_name):
     s3_hook = S3Hook("my_airflow_conn_S3")
     raw_data = s3_hook.read_key(key, bucket_name)
-    print(f"Type: {type(raw_data)}")
-    print(raw_data)
     process_data_from_s3(raw_data=raw_data)
 
 
