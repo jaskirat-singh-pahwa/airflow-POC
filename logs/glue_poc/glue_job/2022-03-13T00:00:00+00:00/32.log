@@ -1,0 +1,50 @@
+[2022-03-16 09:58:41,198] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-16 09:58:41,213] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-16 09:58:41,214] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 09:58:41,215] {taskinstance.py:1244} INFO - Starting attempt 32 of 32
+[2022-03-16 09:58:41,216] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-16 09:58:41,231] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): glue_job> on 2022-03-13 00:00:00+00:00
+[2022-03-16 09:58:41,237] {standard_task_runner.py:52} INFO - Started process 234 to run task
+[2022-03-16 09:58:41,242] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'glue_poc', 'glue_job', 'scheduled__2022-03-13T00:00:00+00:00', '--job-id', '287', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmp4h84wpi0', '--error-file', '/tmp/tmpq6co89ap']
+[2022-03-16 09:58:41,244] {standard_task_runner.py:77} INFO - Job 287: Subtask glue_job
+[2022-03-16 09:58:41,308] {logging_mixin.py:109} INFO - Running <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [running]> on host 26f80f9099ae
+[2022-03-16 09:58:41,374] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=glue_poc
+AIRFLOW_CTX_TASK_ID=glue_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-13T00:00:00+00:00
+[2022-03-16 09:58:41,376] {glue.py:128} INFO - Initializing AWS Glue Job: glue_***_poc. Wait for completion: True
+[2022-03-16 09:58:41,388] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-16 09:58:41,948] {glue.py:179} INFO - Job doesn't exist. Now creating and running AWS Glue Job
+[2022-03-16 09:58:41,958] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-16 09:58:43,133] {glue.py:99} INFO - Iam Role Name: AWSGlueServiceRolePOC
+[2022-03-16 09:58:43,475] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:58:49,582] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:58:55,667] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:01,749] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:07,835] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:13,935] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:20,043] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:26,195] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:32,286] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:38,370] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:44,448] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:50,534] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 09:59:56,628] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:02,723] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:08,816] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:14,892] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:20,992] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:27,068] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:33,160] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:39,244] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:45,308] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:51,396] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-16 10:00:57,474] {glue.py:155} INFO - Exiting Job jr_59f7b7a029f8247184975b98c9a5220570260d5c55dc6b758945ba18408d1548 Run State: SUCCEEDED
+[2022-03-16 10:00:57,475] {glue.py:137} INFO - AWS Glue Job: glue_***_poc status: SUCCEEDED. Run Id: jr_59f7b7a029f8247184975b98c9a5220570260d5c55dc6b758945ba18408d1548
+[2022-03-16 10:00:57,542] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=glue_poc, task_id=glue_job, execution_date=20220313T000000, start_date=20220316T095841, end_date=20220316T100057
+[2022-03-16 10:00:57,593] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-16 10:00:57,647] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

@@ -1,0 +1,12 @@
+Glue POC
+
+
+Dataset: Employee Salary and Employee Raise
+
+Glue Job: Read two datasets from S3, do salary calculation and save result in S3
+
+Airflow DAG:
+
+ >> Task1: Create S3 bucket
+ >> [Task2: Copy dataset1 to S3 bucket, Task3: Copy dataset2 to S3 bucket]
+ >> [Task4: Glue Job]

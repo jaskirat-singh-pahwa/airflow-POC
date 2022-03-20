@@ -1,0 +1,123 @@
+[2022-03-09 13:41:07,342] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_glue_connection.task_1 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-03-09 13:41:07,375] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_glue_connection.task_1 scheduled__2022-02-25T00:00:00+00:00 [queued]>
+[2022-03-09 13:41:07,378] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-09 13:41:07,379] {taskinstance.py:1244} INFO - Starting attempt 1 of 1
+[2022-03-09 13:41:07,382] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-09 13:41:07,429] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): task_1> on 2022-02-25 00:00:00+00:00
+[2022-03-09 13:41:07,446] {standard_task_runner.py:52} INFO - Started process 3004 to run task
+[2022-03-09 13:41:07,505] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_glue_connection', 'task_1', 'scheduled__2022-02-25T00:00:00+00:00', '--job-id', '109', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmpskxylrrq', '--error-file', '/tmp/tmp55fla0o8']
+[2022-03-09 13:41:07,512] {standard_task_runner.py:77} INFO - Job 109: Subtask task_1
+[2022-03-09 13:41:07,780] {logging_mixin.py:109} INFO - Running <TaskInstance: test_glue_connection.task_1 scheduled__2022-02-25T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-03-09 13:41:07,928] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_glue_connection
+AIRFLOW_CTX_TASK_ID=task_1
+AIRFLOW_CTX_EXECUTION_DATE=2022-02-25T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-02-25T00:00:00+00:00
+[2022-03-09 13:41:07,931] {glue.py:128} INFO - Initializing AWS Glue Job: test_job_name. Wait for completion: True
+[2022-03-09 13:41:07,959] {base_aws.py:431} WARNING - Unable to use Airflow Connection for credentials.
+[2022-03-09 13:41:10,339] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 130, in execute
+    glue_job_run = glue_job.initialize_job(self.script_args, self.run_job_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 115, in initialize_job
+    glue_client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 519, in get_conn
+    return self.conn
+  File "/home/airflow/.local/lib/python3.7/site-packages/cached_property.py", line 36, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 501, in conn
+    return self.get_client_type(region_name=self.region_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 465, in get_client_type
+    return session.client(client_type, endpoint_url=endpoint_url, config=config, verify=self.verify)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 275, in client
+    aws_session_token=aws_session_token, config=config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/session.py", line 874, in create_client
+    client_config=config, api_version=api_version)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 93, in create_client
+    verify, credentials, scoped_config, client_config, endpoint_bridge)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 362, in _get_client_args
+    verify, credentials, scoped_config, client_config, endpoint_bridge)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 73, in get_client_args
+    endpoint_url, is_secure, scoped_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 154, in compute_client_args
+    s3_config=s3_config,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 234, in _compute_endpoint_config
+    return self._resolve_endpoint(**resolve_endpoint_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 321, in _resolve_endpoint
+    service_name, region_name, endpoint_url, is_secure)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 444, in resolve
+    use_fips_endpoint=use_fips_endpoint,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/regions.py", line 183, in construct_endpoint
+    use_fips_endpoint
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/regions.py", line 215, in _endpoint_for_partition
+    raise NoRegionError()
+botocore.exceptions.NoRegionError: You must specify a region.
+[2022-03-09 13:41:10,372] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=test_glue_connection, task_id=task_1, execution_date=20220225T000000, start_date=20220309T134107, end_date=20220309T134110
+[2022-03-09 13:41:10,449] {standard_task_runner.py:92} ERROR - Failed to execute job 109 for task task_1
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 130, in execute
+    glue_job_run = glue_job.initialize_job(self.script_args, self.run_job_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 115, in initialize_job
+    glue_client = self.get_conn()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 519, in get_conn
+    return self.conn
+  File "/home/airflow/.local/lib/python3.7/site-packages/cached_property.py", line 36, in __get__
+    value = obj.__dict__[self.func.__name__] = self.func(obj)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 501, in conn
+    return self.get_client_type(region_name=self.region_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/base_aws.py", line 465, in get_client_type
+    return session.client(client_type, endpoint_url=endpoint_url, config=config, verify=self.verify)
+  File "/home/airflow/.local/lib/python3.7/site-packages/boto3/session.py", line 275, in client
+    aws_session_token=aws_session_token, config=config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/session.py", line 874, in create_client
+    client_config=config, api_version=api_version)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 93, in create_client
+    verify, credentials, scoped_config, client_config, endpoint_bridge)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 362, in _get_client_args
+    verify, credentials, scoped_config, client_config, endpoint_bridge)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 73, in get_client_args
+    endpoint_url, is_secure, scoped_config)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 154, in compute_client_args
+    s3_config=s3_config,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 234, in _compute_endpoint_config
+    return self._resolve_endpoint(**resolve_endpoint_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/args.py", line 321, in _resolve_endpoint
+    service_name, region_name, endpoint_url, is_secure)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 444, in resolve
+    use_fips_endpoint=use_fips_endpoint,
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/regions.py", line 183, in construct_endpoint
+    use_fips_endpoint
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/regions.py", line 215, in _endpoint_for_partition
+    raise NoRegionError()
+botocore.exceptions.NoRegionError: You must specify a region.
+[2022-03-09 13:41:10,491] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-09 13:41:10,547] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

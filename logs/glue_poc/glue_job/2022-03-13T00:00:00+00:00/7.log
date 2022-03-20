@@ -1,0 +1,33 @@
+[2022-03-14 13:30:38,792] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-14 13:30:38,822] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-14 13:30:38,824] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-14 13:30:38,825] {taskinstance.py:1244} INFO - Starting attempt 7 of 7
+[2022-03-14 13:30:38,826] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-14 13:30:38,867] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): glue_job> on 2022-03-13 00:00:00+00:00
+[2022-03-14 13:30:38,879] {standard_task_runner.py:52} INFO - Started process 26799 to run task
+[2022-03-14 13:30:38,887] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'glue_poc', 'glue_job', 'scheduled__2022-03-13T00:00:00+00:00', '--job-id', '135', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmpnp5y4ueb', '--error-file', '/tmp/tmp4i1b4lhm']
+[2022-03-14 13:30:38,891] {standard_task_runner.py:77} INFO - Job 135: Subtask glue_job
+[2022-03-14 13:30:39,074] {logging_mixin.py:109} INFO - Running <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-03-14 13:30:39,233] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=glue_poc
+AIRFLOW_CTX_TASK_ID=glue_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-13T00:00:00+00:00
+[2022-03-14 13:30:39,236] {glue.py:128} INFO - Initializing AWS Glue Job: glue-***-poc. Wait for completion: True
+[2022-03-14 13:30:39,259] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-14 13:30:39,992] {glue.py:175} INFO - Job Already exist. Returning Name of the job
+[2022-03-14 13:30:40,239] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:30:46,322] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:30:52,414] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:30:58,489] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:31:04,590] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:31:10,698] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:31:16,773] {glue.py:163} INFO - Polling for AWS Glue Job glue-***-poc current run state with status RUNNING
+[2022-03-14 13:31:19,620] {local_task_job.py:212} WARNING - State of this instance has been externally set to failed. Terminating instance.
+[2022-03-14 13:31:19,624] {process_utils.py:124} INFO - Sending Signals.SIGTERM to group 26799. PIDs of all processes in the group: [26799]
+[2022-03-14 13:31:19,625] {process_utils.py:75} INFO - Sending the signal Signals.SIGTERM to group 26799
+[2022-03-14 13:31:19,626] {taskinstance.py:1413} ERROR - Received SIGTERM. Terminating subprocesses.
+[2022-03-14 13:31:19,679] {process_utils.py:70} INFO - Process psutil.Process(pid=26799, status='terminated', exitcode=0, started='13:30:38') (26799) terminated with exit code 0

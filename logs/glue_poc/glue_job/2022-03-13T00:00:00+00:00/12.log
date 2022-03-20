@@ -1,0 +1,43 @@
+[2022-03-14 21:31:53,644] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-14 21:31:53,667] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-14 21:31:53,668] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-14 21:31:53,669] {taskinstance.py:1244} INFO - Starting attempt 12 of 12
+[2022-03-14 21:31:53,670] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-14 21:31:53,688] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): glue_job> on 2022-03-13 00:00:00+00:00
+[2022-03-14 21:31:53,697] {standard_task_runner.py:52} INFO - Started process 4456 to run task
+[2022-03-14 21:31:53,702] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'glue_poc', 'glue_job', 'scheduled__2022-03-13T00:00:00+00:00', '--job-id', '148', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmp5mxqfp00', '--error-file', '/tmp/tmp8b6r_x6j']
+[2022-03-14 21:31:53,704] {standard_task_runner.py:77} INFO - Job 148: Subtask glue_job
+[2022-03-14 21:31:53,822] {logging_mixin.py:109} INFO - Running <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-03-14 21:31:53,938] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=glue_poc
+AIRFLOW_CTX_TASK_ID=glue_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-13T00:00:00+00:00
+[2022-03-14 21:31:53,941] {glue.py:128} INFO - Initializing AWS Glue Job: glue_***_poc. Wait for completion: True
+[2022-03-14 21:31:53,961] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-14 21:31:55,840] {glue.py:175} INFO - Job Already exist. Returning Name of the job
+[2022-03-14 21:31:56,054] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:02,167] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:08,256] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:14,388] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:20,472] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:26,523] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:32,626] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:38,712] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:44,792] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:50,862] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:32:56,937] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:33:03,060] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-14 21:33:09,145] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status STOPPING
+[2022-03-14 21:33:15,234] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status STOPPING
+[2022-03-14 21:33:21,333] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status STOPPING
+[2022-03-14 21:33:27,392] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status STOPPING
+[2022-03-14 21:33:33,486] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status STOPPING
+[2022-03-14 21:33:39,558] {glue.py:155} INFO - Exiting Job jr_5097c8d1ebd49e53e9be68ee9c3bca9a96c6b1b6140037c3b8e2a2f38e25b360 Run State: STOPPED
+[2022-03-14 21:33:39,559] {glue.py:137} INFO - AWS Glue Job: glue_***_poc status: STOPPED. Run Id: jr_5097c8d1ebd49e53e9be68ee9c3bca9a96c6b1b6140037c3b8e2a2f38e25b360
+[2022-03-14 21:33:39,585] {taskinstance.py:1282} INFO - Marking task as SUCCESS. dag_id=glue_poc, task_id=glue_job, execution_date=20220313T000000, start_date=20220314T213153, end_date=20220314T213339
+[2022-03-14 21:33:39,638] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-03-14 21:33:39,670] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

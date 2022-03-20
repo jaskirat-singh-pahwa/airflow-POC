@@ -1,0 +1,116 @@
+[2022-03-09 13:43:12,464] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_glue_connection.task_1 manual__2022-03-09T13:41:02.387341+00:00 [queued]>
+[2022-03-09 13:43:12,478] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: test_glue_connection.task_1 manual__2022-03-09T13:41:02.387341+00:00 [queued]>
+[2022-03-09 13:43:12,479] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-09 13:43:12,480] {taskinstance.py:1244} INFO - Starting attempt 2 of 2
+[2022-03-09 13:43:12,481] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-09 13:43:12,501] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): task_1> on 2022-03-09 13:41:02.387341+00:00
+[2022-03-09 13:43:12,508] {standard_task_runner.py:52} INFO - Started process 3172 to run task
+[2022-03-09 13:43:12,512] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'test_glue_connection', 'task_1', 'manual__2022-03-09T13:41:02.387341+00:00', '--job-id', '111', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmp36c8uk_0', '--error-file', '/tmp/tmpo9fbs_pu']
+[2022-03-09 13:43:12,514] {standard_task_runner.py:77} INFO - Job 111: Subtask task_1
+[2022-03-09 13:43:12,581] {logging_mixin.py:109} INFO - Running <TaskInstance: test_glue_connection.task_1 manual__2022-03-09T13:41:02.387341+00:00 [running]> on host cdd2ec182991
+[2022-03-09 13:43:12,650] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=test_glue_connection
+AIRFLOW_CTX_TASK_ID=task_1
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-09T13:41:02.387341+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2022-03-09T13:41:02.387341+00:00
+[2022-03-09 13:43:12,652] {glue.py:128} INFO - Initializing AWS Glue Job: test_job_name. Wait for completion: True
+[2022-03-09 13:43:12,667] {base_aws.py:431} WARNING - Unable to use Airflow Connection for credentials.
+[2022-03-09 13:43:13,771] {glue.py:124} ERROR - Failed to run aws glue job, error: Unable to locate credentials
+[2022-03-09 13:43:13,773] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 130, in execute
+    glue_job_run = glue_job.initialize_job(self.script_args, self.run_job_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 120, in initialize_job
+    job_name = self.get_or_create_glue_job()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 174, in get_or_create_glue_job
+    get_job_response = glue_client.get_job(JobName=self.job_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 391, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 706, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 725, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 106, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 179, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 120, in create_request
+    operation_name=operation_model.name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 357, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 93, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 165, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/auth.py", line 380, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2022-03-09 13:43:13,793] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=test_glue_connection, task_id=task_1, execution_date=20220309T134102, start_date=20220309T134312, end_date=20220309T134313
+[2022-03-09 13:43:13,808] {standard_task_runner.py:92} ERROR - Failed to execute job 111 for task task_1
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 130, in execute
+    glue_job_run = glue_job.initialize_job(self.script_args, self.run_job_kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 120, in initialize_job
+    job_name = self.get_or_create_glue_job()
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 174, in get_or_create_glue_job
+    get_job_response = glue_client.get_job(JobName=self.job_name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 391, in _api_call
+    return self._make_api_call(operation_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 706, in _make_api_call
+    operation_model, request_dict, request_context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/client.py", line 725, in _make_request
+    return self._endpoint.make_request(operation_model, request_dict)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 106, in make_request
+    return self._send_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 179, in _send_request
+    request = self.create_request(request_dict, operation_model)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/endpoint.py", line 120, in create_request
+    operation_name=operation_model.name)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 357, in emit
+    return self._emitter.emit(aliased_event_name, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 228, in emit
+    return self._emit(event_name, kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/hooks.py", line 211, in _emit
+    response = handler(**kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 93, in handler
+    return self.sign(operation_name, request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/signers.py", line 165, in sign
+    auth.add_auth(request)
+  File "/home/airflow/.local/lib/python3.7/site-packages/botocore/auth.py", line 380, in add_auth
+    raise NoCredentialsError()
+botocore.exceptions.NoCredentialsError: Unable to locate credentials
+[2022-03-09 13:43:13,836] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-09 13:43:13,885] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check

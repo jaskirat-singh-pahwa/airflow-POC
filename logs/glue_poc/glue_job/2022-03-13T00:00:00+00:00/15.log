@@ -1,0 +1,72 @@
+[2022-03-15 07:42:18,714] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-15 07:42:18,748] {taskinstance.py:1037} INFO - Dependencies all met for <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [queued]>
+[2022-03-15 07:42:18,750] {taskinstance.py:1243} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 07:42:18,752] {taskinstance.py:1244} INFO - Starting attempt 15 of 15
+[2022-03-15 07:42:18,756] {taskinstance.py:1245} INFO - 
+--------------------------------------------------------------------------------
+[2022-03-15 07:42:18,791] {taskinstance.py:1264} INFO - Executing <Task(GlueJobOperator): glue_job> on 2022-03-13 00:00:00+00:00
+[2022-03-15 07:42:18,811] {standard_task_runner.py:52} INFO - Started process 11311 to run task
+[2022-03-15 07:42:18,818] {standard_task_runner.py:76} INFO - Running: ['***', 'tasks', 'run', 'glue_poc', 'glue_job', 'scheduled__2022-03-13T00:00:00+00:00', '--job-id', '154', '--raw', '--subdir', 'DAGS_FOLDER/glue_poc.py', '--cfg-path', '/tmp/tmpjex9bsqz', '--error-file', '/tmp/tmphqns97za']
+[2022-03-15 07:42:18,822] {standard_task_runner.py:77} INFO - Job 154: Subtask glue_job
+[2022-03-15 07:42:19,018] {logging_mixin.py:109} INFO - Running <TaskInstance: glue_poc.glue_job scheduled__2022-03-13T00:00:00+00:00 [running]> on host cdd2ec182991
+[2022-03-15 07:42:19,150] {taskinstance.py:1431} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=***
+AIRFLOW_CTX_DAG_ID=glue_poc
+AIRFLOW_CTX_TASK_ID=glue_job
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-13T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-13T00:00:00+00:00
+[2022-03-15 07:42:19,153] {glue.py:128} INFO - Initializing AWS Glue Job: glue_***_poc. Wait for completion: True
+[2022-03-15 07:42:19,181] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-15 07:42:20,164] {glue.py:179} INFO - Job doesn't exist. Now creating and running AWS Glue Job
+[2022-03-15 07:42:20,193] {base_aws.py:194} INFO - Credentials retrieved from extra_config
+[2022-03-15 07:42:21,310] {glue.py:99} INFO - Iam Role Name: AWSGlueServiceRolePOC
+[2022-03-15 07:42:21,642] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-15 07:42:27,733] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-15 07:42:33,829] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-15 07:42:39,879] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-15 07:42:45,957] {glue.py:163} INFO - Polling for AWS Glue Job glue_***_poc current run state with status RUNNING
+[2022-03-15 07:42:52,032] {glue.py:159} INFO - Exiting Job jr_eda4b39a5e4e437bdec7164b6795a4b20123f6494b2861a241ee6d7140366688 Run State: FAILED
+[2022-03-15 07:42:52,056] {taskinstance.py:1718} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 132, in execute
+    glue_job_run = glue_job.job_completion(self.job_name, glue_job_run['JobRunId'])
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 160, in job_completion
+    raise AirflowException(job_error_message)
+airflow.exceptions.AirflowException: Exiting Job jr_eda4b39a5e4e437bdec7164b6795a4b20123f6494b2861a241ee6d7140366688 Run State: FAILED
+[2022-03-15 07:42:52,083] {taskinstance.py:1282} INFO - Marking task as FAILED. dag_id=glue_poc, task_id=glue_job, execution_date=20220313T000000, start_date=20220315T074218, end_date=20220315T074252
+[2022-03-15 07:42:52,110] {standard_task_runner.py:92} ERROR - Failed to execute job 154 for task glue_job
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/task/task_runner/standard_task_runner.py", line 85, in _start_by_fork
+    args.func(args, dag=self.dag)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 298, in task_run
+    _run_task_by_selected_method(args, dag, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 107, in _run_task_by_selected_method
+    _run_raw_task(args, ti)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/cli/commands/task_command.py", line 184, in _run_raw_task
+    error_file=args.error_file,
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/utils/session.py", line 70, in wrapper
+    return func(*args, session=session, **kwargs)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1334, in _run_raw_task
+    self._execute_task_with_callbacks(context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1460, in _execute_task_with_callbacks
+    result = self._execute_task(context, self.task)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/taskinstance.py", line 1516, in _execute_task
+    result = execute_callable(context=context)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/operators/glue.py", line 132, in execute
+    glue_job_run = glue_job.job_completion(self.job_name, glue_job_run['JobRunId'])
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/amazon/aws/hooks/glue.py", line 160, in job_completion
+    raise AirflowException(job_error_message)
+airflow.exceptions.AirflowException: Exiting Job jr_eda4b39a5e4e437bdec7164b6795a4b20123f6494b2861a241ee6d7140366688 Run State: FAILED
+[2022-03-15 07:42:52,166] {local_task_job.py:154} INFO - Task exited with return code 1
+[2022-03-15 07:42:52,410] {local_task_job.py:264} INFO - 0 downstream tasks scheduled from follow-on schedule check
